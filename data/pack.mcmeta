@@ -1,10 +1,30 @@
 {
 	"pack": {
-		"pack_format": 26,
-		"description": "Ultimate MultiTool",
-		"supported_formats": [
-			26,
-			35
+		"pack_format": 41,
+		"supported_formats": {
+			"min_inclusive": 41,
+			"max_inclusive": 57
+		},
+		"description": [
+			"",
+			{
+				"text": "Ultimate",
+				"bold": true,
+				"color": "dark_purple"
+			},
+			{
+				"text": " MultiTool",
+				"color": "aqua"
+			},
+			{
+				"text": "\nby ",
+				"color": "gray"
+			},
+			{
+				"text": "BrainStone",
+				"bold": true,
+				"color": "green"
+			}
 		]
 	}
 }
