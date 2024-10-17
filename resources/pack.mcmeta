@@ -21,7 +21,11 @@
 				"color": "white"
 			},
 			{
-				"text": "\nby ",
+				"text": "\nvDEV",
+				"color": "gold"
+			},
+			{
+				"text": " by ",
 				"color": "gray"
 			},
 			{

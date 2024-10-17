@@ -6,9 +6,16 @@ include:
     ref: compiled/v1
     file: 'pack_packer.yml'
 
+.auto_version:
+  before_script:
+    - VERSION="$(git --no-pager describe --tags --match 'v[0-9]*' --long | awk -F'-' '{ if (NF > 1) printf "%s.%s\n", $1, $2; else print $1 }')"
+    - sed -i "s/DEV/$VERSION/" "$folder/pack.mcmeta"
+    - cp CHANGELOG.md "$folder/"
+
 build:resourcepack:
   stage: build
   extends:
+    - .auto_version
     - .pack_pack
   variables: 
     folder: resources
@@ -17,6 +24,7 @@ build:resourcepack:
 build:datapack:
   stage: build
   extends:
+    - .auto_version
     - .pack_pack
   variables:
     folder: data

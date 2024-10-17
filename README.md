@@ -8,3 +8,4 @@ These links helped me create this pack
 
 - https://gitlab.project-creative.net/BrainStone/MCPackPacker
 - https://minecraft.wiki/w/Pack_format
+- https://www.digminecraft.com/lists/color_list_pc.php

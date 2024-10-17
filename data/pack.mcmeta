@@ -17,7 +17,11 @@
 				"color": "aqua"
 			},
 			{
-				"text": "\nby ",
+				"text": "\nvDEV",
+				"color": "gold"
+			},
+			{
+				"text": " by ",
 				"color": "gray"
 			},
 			{
