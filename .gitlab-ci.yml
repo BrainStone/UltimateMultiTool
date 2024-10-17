@@ -9,7 +9,7 @@ include:
 .auto_version:
   before_script:
     - VERSION="$(git --no-pager describe --tags --match 'v[0-9]*' --long | awk -F'-' '{ if (NF > 1) printf "%s.%s\n", $1, $2; else print $1 }')"
-    - sed -i "s/DEV/$VERSION/" "$folder/pack.mcmeta"
+    - sed -i "s/DEV VERSION/$VERSION/" "$folder/pack.mcmeta"
     - cp CHANGELOG.md "$folder/"
 
 build:resourcepack:
