@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"pack_format": 26,
+		"description": "Ultimate MultiTool",
+		"supported_formats": [
+			26,
+			35
+		]
+	}
+}
