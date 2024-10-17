@@ -2,7 +2,7 @@ stages:
   - build
 
 include:
-  - project: 'https://gitlab.project-creative.net/BrainStone/MCPackPacker'
+  - project: 'BrainStone/MCPackPacker'
     ref: compiled/v1
     file: 'pack_packer.yml'
 
