@@ -6,10 +6,18 @@ include:
     ref: compiled/v1
     file: 'pack_packer.yml'
 
-create_resource_pack:
+build:resourcepack:
   stage: build
   extends:
     - .pack_pack
   variables: 
     folder: resources
     output: UMultiTool.resources.zip
+
+build:datapack:
+  stage: build
+  extends:
+    - .pack_pack
+  variables:
+    folder: data
+    output: UMultiTool.data.zip
