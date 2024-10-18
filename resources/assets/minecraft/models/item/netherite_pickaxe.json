@@ -6,27 +6,9 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 1236865
-			},
-			"model": "item/netherite_shovel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236866
-			},
-			"model": "item/netherite_pickaxe"
-		},
-		{
-			"predicate": {
 				"custom_model_data": 1236867
 			},
 			"model": "umultitool:item/netherite_povel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236868
-			},
-			"model": "item/netherite_axe"
 		},
 		{
 			"predicate": {
@@ -45,12 +27,6 @@
 				"custom_model_data": 1236871
 			},
 			"model": "umultitool:item/netherite_paxel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236872
-			},
-			"model": "item/netherite_hoe"
 		},
 		{
 			"predicate": {

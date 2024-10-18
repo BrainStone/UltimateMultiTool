@@ -6,27 +6,9 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 1236865
-			},
-			"model": "item/wood_shovel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236866
-			},
-			"model": "item/wood_pickaxe"
-		},
-		{
-			"predicate": {
 				"custom_model_data": 1236867
 			},
 			"model": "umultitool:item/wood_povel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236868
-			},
-			"model": "item/wood_axe"
 		},
 		{
 			"predicate": {
@@ -45,12 +27,6 @@
 				"custom_model_data": 1236871
 			},
 			"model": "umultitool:item/wood_paxel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236872
-			},
-			"model": "item/wood_hoe"
 		},
 		{
 			"predicate": {

@@ -6,27 +6,9 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 1236865
-			},
-			"model": "item/iron_shovel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236866
-			},
-			"model": "item/iron_pickaxe"
-		},
-		{
-			"predicate": {
 				"custom_model_data": 1236867
 			},
 			"model": "umultitool:item/iron_povel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236868
-			},
-			"model": "item/iron_axe"
 		},
 		{
 			"predicate": {
@@ -45,12 +27,6 @@
 				"custom_model_data": 1236871
 			},
 			"model": "umultitool:item/iron_paxel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236872
-			},
-			"model": "item/iron_hoe"
 		},
 		{
 			"predicate": {

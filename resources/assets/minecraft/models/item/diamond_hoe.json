@@ -6,27 +6,9 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 1236865
-			},
-			"model": "item/diamond_shovel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236866
-			},
-			"model": "item/diamond_pickaxe"
-		},
-		{
-			"predicate": {
 				"custom_model_data": 1236867
 			},
 			"model": "umultitool:item/diamond_povel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236868
-			},
-			"model": "item/diamond_axe"
 		},
 		{
 			"predicate": {
@@ -45,12 +27,6 @@
 				"custom_model_data": 1236871
 			},
 			"model": "umultitool:item/diamond_paxel"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1236872
-			},
-			"model": "item/diamond_hoe"
 		},
 		{
 			"predicate": {
