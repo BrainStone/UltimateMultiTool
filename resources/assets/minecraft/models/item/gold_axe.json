@@ -1,0 +1,98 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/gold_axe"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1236865
+			},
+			"model": "item/gold_shovel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236866
+			},
+			"model": "item/gold_pickaxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236867
+			},
+			"model": "umultitool:item/gold_povel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236868
+			},
+			"model": "item/gold_axe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236869
+			},
+			"model": "umultitool:item/gold_shaxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236870
+			},
+			"model": "umultitool:item/gold_paxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236871
+			},
+			"model": "umultitool:item/gold_paxel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236872
+			},
+			"model": "item/gold_hoe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236873
+			},
+			"model": "umultitool:item/gold_hovel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236874
+			},
+			"model": "umultitool:item/gold_poe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236875
+			},
+			"model": "umultitool:item/gold_poveloe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236876
+			},
+			"model": "umultitool:item/gold_haxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236877
+			},
+			"model": "umultitool:item/gold_shaxoe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236878
+			},
+			"model": "umultitool:item/gold_paxoe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236879
+			},
+			"model": "umultitool:item/gold_paxeloe"
+		}
+	]
+}

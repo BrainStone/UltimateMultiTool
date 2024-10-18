@@ -1,0 +1,98 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_axe"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1236865
+			},
+			"model": "item/diamond_shovel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236866
+			},
+			"model": "item/diamond_pickaxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236867
+			},
+			"model": "umultitool:item/diamond_povel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236868
+			},
+			"model": "item/diamond_axe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236869
+			},
+			"model": "umultitool:item/diamond_shaxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236870
+			},
+			"model": "umultitool:item/diamond_paxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236871
+			},
+			"model": "umultitool:item/diamond_paxel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236872
+			},
+			"model": "item/diamond_hoe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236873
+			},
+			"model": "umultitool:item/diamond_hovel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236874
+			},
+			"model": "umultitool:item/diamond_poe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236875
+			},
+			"model": "umultitool:item/diamond_poveloe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236876
+			},
+			"model": "umultitool:item/diamond_haxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236877
+			},
+			"model": "umultitool:item/diamond_shaxoe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236878
+			},
+			"model": "umultitool:item/diamond_paxoe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236879
+			},
+			"model": "umultitool:item/diamond_paxeloe"
+		}
+	]
+}

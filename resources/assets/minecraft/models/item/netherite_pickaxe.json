@@ -1,0 +1,98 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/netherite_pickaxe"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1236865
+			},
+			"model": "item/netherite_shovel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236866
+			},
+			"model": "item/netherite_pickaxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236867
+			},
+			"model": "umultitool:item/netherite_povel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236868
+			},
+			"model": "item/netherite_axe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236869
+			},
+			"model": "umultitool:item/netherite_shaxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236870
+			},
+			"model": "umultitool:item/netherite_paxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236871
+			},
+			"model": "umultitool:item/netherite_paxel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236872
+			},
+			"model": "item/netherite_hoe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236873
+			},
+			"model": "umultitool:item/netherite_hovel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236874
+			},
+			"model": "umultitool:item/netherite_poe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236875
+			},
+			"model": "umultitool:item/netherite_poveloe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236876
+			},
+			"model": "umultitool:item/netherite_haxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236877
+			},
+			"model": "umultitool:item/netherite_shaxoe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236878
+			},
+			"model": "umultitool:item/netherite_paxoe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236879
+			},
+			"model": "umultitool:item/netherite_paxeloe"
+		}
+	]
+}
