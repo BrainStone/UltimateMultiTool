@@ -1,74 +1,74 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/gold_pickaxe"
+		"layer0": "item/golden_axe"
 	},
 	"overrides": [
 		{
 			"predicate": {
 				"custom_model_data": 1236867
 			},
-			"model": "umultitool:item/gold_povel"
+			"model": "umultitool:item/golden_povel"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236869
 			},
-			"model": "umultitool:item/gold_shaxe"
+			"model": "umultitool:item/golden_shaxe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236870
 			},
-			"model": "umultitool:item/gold_paxe"
+			"model": "umultitool:item/golden_paxe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236871
 			},
-			"model": "umultitool:item/gold_paxel"
+			"model": "umultitool:item/golden_paxel"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236873
 			},
-			"model": "umultitool:item/gold_hovel"
+			"model": "umultitool:item/golden_hovel"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236874
 			},
-			"model": "umultitool:item/gold_poe"
+			"model": "umultitool:item/golden_poe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236875
 			},
-			"model": "umultitool:item/gold_poveloe"
+			"model": "umultitool:item/golden_poveloe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236876
 			},
-			"model": "umultitool:item/gold_haxe"
+			"model": "umultitool:item/golden_haxe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236877
 			},
-			"model": "umultitool:item/gold_shaxoe"
+			"model": "umultitool:item/golden_shaxoe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236878
 			},
-			"model": "umultitool:item/gold_paxoe"
+			"model": "umultitool:item/golden_paxoe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236879
 			},
-			"model": "umultitool:item/gold_paxeloe"
+			"model": "umultitool:item/golden_paxeloe"
 		}
 	]
 }

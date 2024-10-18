@@ -1,74 +1,74 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/wood_shovel"
+		"layer0": "item/golden_pickaxe"
 	},
 	"overrides": [
 		{
 			"predicate": {
 				"custom_model_data": 1236867
 			},
-			"model": "umultitool:item/wood_povel"
+			"model": "umultitool:item/golden_povel"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236869
 			},
-			"model": "umultitool:item/wood_shaxe"
+			"model": "umultitool:item/golden_shaxe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236870
 			},
-			"model": "umultitool:item/wood_paxe"
+			"model": "umultitool:item/golden_paxe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236871
 			},
-			"model": "umultitool:item/wood_paxel"
+			"model": "umultitool:item/golden_paxel"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236873
 			},
-			"model": "umultitool:item/wood_hovel"
+			"model": "umultitool:item/golden_hovel"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236874
 			},
-			"model": "umultitool:item/wood_poe"
+			"model": "umultitool:item/golden_poe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236875
 			},
-			"model": "umultitool:item/wood_poveloe"
+			"model": "umultitool:item/golden_poveloe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236876
 			},
-			"model": "umultitool:item/wood_haxe"
+			"model": "umultitool:item/golden_haxe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236877
 			},
-			"model": "umultitool:item/wood_shaxoe"
+			"model": "umultitool:item/golden_shaxoe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236878
 			},
-			"model": "umultitool:item/wood_paxoe"
+			"model": "umultitool:item/golden_paxoe"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1236879
 			},
-			"model": "umultitool:item/wood_paxeloe"
+			"model": "umultitool:item/golden_paxeloe"
 		}
 	]
 }

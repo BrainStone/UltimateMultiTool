@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "umultitool:item/wood_shaxoe"
+		"layer0": "umultitool:item/wooden_povel"
 	}
 }

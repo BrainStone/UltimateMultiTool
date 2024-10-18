@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "umultitool:item/gold_paxel"
+		"layer0": "umultitool:item/golden_paxeloe"
 	}
 }
