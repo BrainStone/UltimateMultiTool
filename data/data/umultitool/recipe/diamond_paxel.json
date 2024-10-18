@@ -1,0 +1,55 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"group": "umultitool:paxels",
+	"ingredients": [
+		{
+			"item": "minecraft:diamond_axe"
+		},
+		{
+			"item": "minecraft:diamond_shovel"
+		},
+		{
+			"item": "minecraft:diamond_pickaxe"
+		}
+	],
+	"result": {
+		"id": "minecraft:diamond_axe",
+		"components": {
+			"minecraft:item_name": "{\"translate\":\"umultitool.diamond_paxel\",\"fallback\":\"Diamond Paxel\"}",
+			"minecraft:custom_model_data": 1236871,
+			"minecraft:custom_data": {
+				"umultitool": {
+					"is_multitool": true,
+					"type": "paxel",
+					"material": "diamond"
+				}
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:incorrect_for_diamond_tool",
+						"correct_for_drops": false
+					},
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 8.0,
+						"correct_for_drops": true
+					}
+				]
+			},
+			"minecraft:rarity": "rare"
+		}
+	}
+}
+  

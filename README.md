@@ -17,9 +17,13 @@ These links helped me create this pack
 
 - https://gitlab.project-creative.net/BrainStone/MCPackPacker
 - https://minecraft.wiki/w/Pack_format
+- https://minecraft.wiki/w/Tutorials/Models#Item_predicates
+- https://minecraft.wiki/w/Recipe
+- https://minecraft.wiki/w/Data_component_format
+- https://minecraft.wiki/w/Raw_JSON_text_format
+- https://minecraft.wiki/w/Item_modifier
 - https://www.digminecraft.com/lists/color_list_pc.php
 - Inspiration: https://modrinth.com/datapack/paxels
-- https://minecraft.wiki/w/Tutorials/Models#Item_predicates
 
 ### Custom Model Calculation
 
