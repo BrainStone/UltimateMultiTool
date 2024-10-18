@@ -23,6 +23,7 @@
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_pickaxe,fallback:Pickaxe}]}",
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}"
 			],
+			"minecraft:rarity": "rare",
 			"minecraft:custom_model_data": 1236871,
 			"minecraft:custom_data": {
 				"umultitool": {
@@ -54,7 +55,25 @@
 					}
 				]
 			},
-			"minecraft:rarity": "rare"
+			"minecraft:max_damage": 1873,
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"amount": 5.5,
+						"id": "minecraft:base_attack_damage",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_damage"
+					},
+					{
+						"amount": -2.9,
+						"id": "minecraft:base_attack_speed",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_speed"
+					}
+				]
+			}
 		}
 	}
 }
