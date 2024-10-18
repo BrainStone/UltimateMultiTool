@@ -1,0 +1,74 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/stone_axe"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1236867
+			},
+			"model": "umultitool:item/stone_povel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236869
+			},
+			"model": "umultitool:item/stone_shaxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236870
+			},
+			"model": "umultitool:item/stone_paxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236871
+			},
+			"model": "umultitool:item/stone_paxel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236873
+			},
+			"model": "umultitool:item/stone_hovel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236874
+			},
+			"model": "umultitool:item/stone_poe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236875
+			},
+			"model": "umultitool:item/stone_poveloe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236876
+			},
+			"model": "umultitool:item/stone_haxe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236877
+			},
+			"model": "umultitool:item/stone_shaxoe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236878
+			},
+			"model": "umultitool:item/stone_paxoe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1236879
+			},
+			"model": "umultitool:item/stone_paxeloe"
+		}
+	]
+}
