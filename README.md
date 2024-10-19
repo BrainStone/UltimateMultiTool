@@ -108,6 +108,14 @@ real value is -2.8 because 4 + -2.8 = 1.2).
 
 ### New Tool Data
 
+#### Rarity
+
+| Tier   | Rarity   |
+|--------|----------|
+| Tier 1 | uncommon |
+| Tier 2 | rare     |
+| Tier 3 | epic     |
+
 #### Material Name, Durability & Mining Speeds
 
 Each tier gives 10% bonus (rounded up).
@@ -129,71 +137,72 @@ Attack damage values are rounded to 0.5, attack speed values are rounded to 0.1
 *Note*: Real attack speed is a negative value, because it gets added to base value of 4 (so if attack speed is 1.2, the
 real value is -2.8 because 4 + -2.8 = 1.2).
 
-| Item Name         | Attack Damage | Attack Speed |
-|-------------------|---------------|--------------|
-| wooden_povel      |               |              |
-| wooden_shaxe      |               |              |
-| wooden_paxe       |               |              |
-| wooden_paxel      |               |              |
-| wooden_hovel      |               |              |
-| wooden_poe        |               |              |
-| wooden_poveloe    |               |              |
-| wooden_haxe       |               |              |
-| wooden_shaxoe     |               |              |
-| wooden_paxoe      |               |              |
-| wooden_paxeloe    |               |              |
-| stone_povel       |               |              |
-| stone_shaxe       |               |              |
-| stone_paxe        |               |              |
-| stone_paxel       |               |              |
-| stone_hovel       |               |              |
-| stone_poe         |               |              |
-| stone_poveloe     |               |              |
-| stone_haxe        |               |              |
-| stone_shaxoe      |               |              |
-| stone_paxoe       |               |              |
-| stone_paxeloe     |               |              |
-| iron_povel        |               |              |
-| iron_shaxe        |               |              |
-| iron_paxe         |               |              |
-| iron_paxel        |               |              |
-| iron_hovel        |               |              |
-| iron_poe          |               |              |
-| iron_poveloe      |               |              |
-| iron_haxe         |               |              |
-| iron_shaxoe       |               |              |
-| iron_paxoe        |               |              |
-| iron_paxeloe      |               |              |
-| golden_povel      |               |              |
-| golden_shaxe      |               |              |
-| golden_paxe       |               |              |
-| golden_paxel      |               |              |
-| golden_hovel      |               |              |
-| golden_poe        |               |              |
-| golden_poveloe    |               |              |
-| golden_haxe       |               |              |
-| golden_shaxoe     |               |              |
-| golden_paxoe      |               |              |
-| golden_paxeloe    |               |              |
-| diamond_povel     |               |              |
-| diamond_shaxe     |               |              |
-| diamond_paxe      |               |              |
-| diamond_paxel     | 6.5           | 1.1          |
-| diamond_hovel     |               |              |
-| diamond_poe       |               |              |
-| diamond_poveloe   |               |              |
-| diamond_haxe      |               |              |
-| diamond_shaxoe    |               |              |
-| diamond_paxoe     |               |              |
-| diamond_paxeloe   |               |              |
-| netherite_povel   |               |              |
-| netherite_shaxe   |               |              |
-| netherite_paxe    |               |              |
-| netherite_paxel   |               |              |
-| netherite_hovel   |               |              |
-| netherite_poe     |               |              |
-| netherite_poveloe |               |              |
-| netherite_haxe    |               |              |
-| netherite_shaxoe  |               |              |
-| netherite_paxoe   |               |              |
-| netherite_paxeloe |               |              |
+| Item Name         | Attack Damage | Attack Speed | Real Attack Damage | Real Attack Speed |
+|-------------------|---------------|--------------|--------------------|-------------------|
+| wooden_povel      | 2.5           | 1.1          | 1.5                | -2.9              |
+| wooden_shaxe      | 5.0           | 0.9          | 4.0                | -3.1              |
+| wooden_paxe       | 4.5           | 1.0          | 3.5                | -3.0              |
+| wooden_paxel      | 4.0           | 1.0          | 3.0                | -3.0              |
+| wooden_hovel      | 2.0           | 1.0          | 1.0                | -3.0              |
+| wooden_poe        | 1.5           | 1.1          | 0.5                | -2.9              |
+| wooden_poveloe    | 2.0           | 1.1          | 1.0                | -2.9              |
+| wooden_haxe       | 4.0           | 0.9          | 3.0                | -3.1              |
+| wooden_shaxoe     | 3.5           | 0.9          | 2.5                | -3.1              |
+| wooden_paxoe      | 3.5           | 1.0          | 2.5                | -3.0              |
+| wooden_paxeloe    | 3.0           | 1.0          | 2.0                | -3.0              |
+| stone_povel       | 3.5           | 1.1          | 2.5                | -2.9              |
+| stone_shaxe       | 6.5           | 0.9          | 5.5                | -3.1              |
+| stone_paxe        | 6.0           | 1.0          | 5.0                | -3.0              |
+| stone_paxel       | 5.0           | 1.0          | 4.0                | -3.0              |
+| stone_hovel       | 2.5           | 1.5          | 1.5                | -2.5              |
+| stone_poe         | 2.0           | 1.6          | 1.0                | -2.4              |
+| stone_poveloe     | 2.5           | 1.4          | 1.5                | -2.6              |
+| stone_haxe        | 5.0           | 1.4          | 4.0                | -2.6              |
+| stone_shaxoe      | 4.5           | 1.3          | 3.5                | -2.7              |
+| stone_paxoe       | 4.5           | 1.3          | 3.5                | -2.7              |
+| stone_paxeloe     | 4.0           | 1.3          | 3.0                | -2.7              |
+| iron_povel        | 4.5           | 1.1          | 3.5                | -2.9              |
+| iron_shaxe        | 7.0           | 1.0          | 6.0                | -3.0              |
+| iron_paxe         | 6.5           | 1.1          | 5.5                | -2.9              |
+| iron_paxel        | 6.0           | 1.0          | 5.0                | -3.0              |
+| iron_hovel        | 3.0           | 2.0          | 2.0                | -2.0              |
+| iron_poe          | 2.5           | 2.1          | 1.5                | -1.9              |
+| iron_poveloe      | 3.0           | 1.7          | 2.0                | -2.3              |
+| iron_haxe         | 5.0           | 2.0          | 4.0                | -2.0              |
+| iron_shaxoe       | 5.0           | 1.6          | 4.0                | -2.4              |
+| iron_paxoe        | 4.5           | 1.7          | 3.5                | -2.3              |
+| iron_paxeloe      | 4.5           | 1.5          | 3.5                | -2.5              |
+| golden_povel      | 2.5           | 1.1          | 1.5                | -2.9              |
+| golden_shaxe      | 5.0           | 1.0          | 4.0                | -3.0              |
+| golden_paxe       | 4.5           | 1.1          | 3.5                | -2.9              |
+| golden_paxel      | 4.0           | 1.1          | 3.0                | -2.9              |
+| golden_hovel      | 2.0           | 1.0          | 1.0                | -3.0              |
+| golden_poe        | 1.5           | 1.1          | 0.5                | -2.9              |
+| golden_poveloe    | 2.0           | 1.1          | 1.0                | -2.9              |
+| golden_haxe       | 4.0           | 1.0          | 3.0                | -3.0              |
+| golden_shaxoe     | 3.5           | 1.0          | 2.5                | -3.0              |
+| golden_paxoe      | 3.5           | 1.1          | 2.5                | -2.9              |
+| golden_paxeloe    | 3.0           | 1.1          | 2.0                | -2.9              |
+| diamond_povel     | 5.5           | 1.1          | 4.5                | -2.9              |
+| diamond_shaxe     | 7.5           | 1.0          | 6.5                | -3.0              |
+| diamond_paxe      | 7.0           | 1.1          | 6.0                | -2.9              |
+| diamond_paxel     | 6.5           | 1.1          | 5.5                | -2.9              |
+| diamond_hovel     | 3.5           | 2.5          | 2.5                | -1.5              |
+| diamond_poe       | 3.0           | 2.6          | 2.0                | -1.4              |
+| diamond_poveloe   | 4.0           | 2.1          | 3.0                | -1.9              |
+| diamond_haxe      | 5.0           | 2.5          | 4.0                | -1.5              |
+| diamond_shaxoe    | 5.0           | 2.0          | 4.0                | -2.0              |
+| diamond_paxoe     | 5.0           | 2.1          | 4.0                | -1.9              |
+| diamond_paxeloe   | 5.0           | 1.8          | 4.0                | -2.2              |
+| netherite_povel   | 6.5           | 1.1          | 5.5                | -2.9              |
+| netherite_shaxe   | 8.5           | 1.0          | 7.5                | -3.0              |
+| netherite_paxe    | 8.0           | 1.1          | 7.0                | -2.9              |
+| netherite_paxel   | 7.5           | 1.1          | 6.5                | -2.9              |
+| netherite_hovel   | 4.0           | 2.5          | 3.0                | -1.5              |
+| netherite_poe     | 3.5           | 2.6          | 2.5                | -1.4              |
+| netherite_poveloe | 4.5           | 2.1          | 3.5                | -1.9              |
+| netherite_haxe    | 5.5           | 2.5          | 4.5                | -1.5              |
+| netherite_shaxoe  | 6.0           | 2.0          | 5.0                | -2.0              |
+| netherite_paxoe   | 5.5           | 2.1          | 4.5                | -1.9              |
+| netherite_paxeloe | 6.0           | 1.8          | 5.0                | -2.2              |
+
