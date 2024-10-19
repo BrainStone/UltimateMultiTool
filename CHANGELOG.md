@@ -1,3 +1,8 @@
+# v0.5
+
+- Added shaped recipes for diamond tools
+- Added recipe advancements
+
 # v0.4
 
 - Added all diamond tools
