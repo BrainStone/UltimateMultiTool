@@ -1,3 +1,7 @@
+# v0.4
+
+- Added all diamond tools
+
 # v0.3
 
 - Added missing stone tools
