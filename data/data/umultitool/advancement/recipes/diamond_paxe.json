@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_diamond_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_diamond_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "umultitool:diamond_paxe"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_diamond_pickaxe",
+			"has_diamond_axe",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:diamond_paxe"
+		]
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_diamond_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_diamond_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_diamond_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_ahp": {
+			"conditions": {
+				"recipe": "umultitool:diamond_paxoe_ahp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_aph": {
+			"conditions": {
+				"recipe": "umultitool:diamond_paxoe_aph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hap": {
+			"conditions": {
+				"recipe": "umultitool:diamond_paxoe_hap"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hpa": {
+			"conditions": {
+				"recipe": "umultitool:diamond_paxoe_hpa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_pah": {
+			"conditions": {
+				"recipe": "umultitool:diamond_paxoe_pah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_pha": {
+			"conditions": {
+				"recipe": "umultitool:diamond_paxoe_pha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_diamond_pickaxe",
+			"has_diamond_axe",
+			"has_diamond_hoe",
+			"has_the_recipe_ahp",
+			"has_the_recipe_aph",
+			"has_the_recipe_hap",
+			"has_the_recipe_hpa",
+			"has_the_recipe_pah",
+			"has_the_recipe_pha"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:diamond_paxoe_ahp",
+			"umultitool:diamond_paxoe_aph",
+			"umultitool:diamond_paxoe_hap",
+			"umultitool:diamond_paxoe_hpa",
+			"umultitool:diamond_paxoe_pah",
+			"umultitool:diamond_paxoe_pha"
+		]
+	}
+}

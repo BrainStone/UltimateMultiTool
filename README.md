@@ -23,6 +23,7 @@ These links helped me create this pack
 - https://minecraft.wiki/w/Data_component_format
 - https://minecraft.wiki/w/Raw_JSON_text_format
 - https://minecraft.wiki/w/Item_modifier
+- https://minecraft.wiki/w/Advancement_definition
 - https://www.digminecraft.com/lists/color_list_pc.php
 - Inspiration: https://modrinth.com/datapack/paxels
 - https://github.com/misode/mcmeta

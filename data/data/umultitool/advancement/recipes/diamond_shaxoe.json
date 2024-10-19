@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_diamond_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_diamond_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_diamond_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_ahs": {
+			"conditions": {
+				"recipe": "umultitool:diamond_shaxoe_ahs"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_ash": {
+			"conditions": {
+				"recipe": "umultitool:diamond_shaxoe_ash"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_has": {
+			"conditions": {
+				"recipe": "umultitool:diamond_shaxoe_has"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsa": {
+			"conditions": {
+				"recipe": "umultitool:diamond_shaxoe_hsa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sah": {
+			"conditions": {
+				"recipe": "umultitool:diamond_shaxoe_sah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sha": {
+			"conditions": {
+				"recipe": "umultitool:diamond_shaxoe_sha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_diamond_shovel",
+			"has_diamond_axe",
+			"has_diamond_hoe",
+			"has_the_recipe_ahs",
+			"has_the_recipe_ash",
+			"has_the_recipe_has",
+			"has_the_recipe_hsa",
+			"has_the_recipe_sah",
+			"has_the_recipe_sha"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:diamond_shaxoe_ahs",
+			"umultitool:diamond_shaxoe_ash",
+			"umultitool:diamond_shaxoe_has",
+			"umultitool:diamond_shaxoe_hsa",
+			"umultitool:diamond_shaxoe_sah",
+			"umultitool:diamond_shaxoe_sha"
+		]
+	}
+}

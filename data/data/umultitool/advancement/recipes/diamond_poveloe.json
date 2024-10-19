@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_diamond_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_diamond_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_diamond_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_hps": {
+			"conditions": {
+				"recipe": "umultitool:diamond_poveloe_hps"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsp": {
+			"conditions": {
+				"recipe": "umultitool:diamond_poveloe_hsp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_phs": {
+			"conditions": {
+				"recipe": "umultitool:diamond_poveloe_phs"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psh": {
+			"conditions": {
+				"recipe": "umultitool:diamond_poveloe_psh"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_shp": {
+			"conditions": {
+				"recipe": "umultitool:diamond_poveloe_shp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sph": {
+			"conditions": {
+				"recipe": "umultitool:diamond_poveloe_sph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_diamond_shovel",
+			"has_diamond_pickaxe",
+			"has_diamond_hoe",
+			"has_the_recipe_hps",
+			"has_the_recipe_hsp",
+			"has_the_recipe_phs",
+			"has_the_recipe_psh",
+			"has_the_recipe_shp",
+			"has_the_recipe_sph"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:diamond_poveloe_hps",
+			"umultitool:diamond_poveloe_hsp",
+			"umultitool:diamond_poveloe_phs",
+			"umultitool:diamond_poveloe_psh",
+			"umultitool:diamond_poveloe_shp",
+			"umultitool:diamond_poveloe_sph"
+		]
+	}
+}
