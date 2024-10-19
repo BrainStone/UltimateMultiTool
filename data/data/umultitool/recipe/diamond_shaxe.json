@@ -1,15 +1,26 @@
 {
-	"type": "minecraft:crafting_shapeless",
+	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"group": "umultitool:shaxe",
-	"ingredients": [
-		{
+	"pattern": [
+		"SBA",
+		" R ",
+		" R "
+	],
+	"key": {
+		"S": {
 			"item": "minecraft:diamond_shovel"
 		},
-		{
+		"A": {
 			"item": "minecraft:diamond_axe"
+		},
+		"B": {
+			"item": "minecraft:string"
+		},
+		"R": {
+			"item": "minecraft:stick"
 		}
-	],
+	},
 	"result": {
 		"id": "minecraft:diamond_axe",
 		"components": {

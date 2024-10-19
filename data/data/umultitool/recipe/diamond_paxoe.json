@@ -1,18 +1,29 @@
 {
-	"type": "minecraft:crafting_shapeless",
+	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"group": "umultitool:paxoe",
-	"ingredients": [
-		{
+	"pattern": [
+		"PBH",
+		"AR ",
+		" R "
+	],
+	"key": {
+		"P": {
 			"item": "minecraft:diamond_pickaxe"
 		},
-		{
+		"A": {
 			"item": "minecraft:diamond_axe"
 		},
-		{
+		"H": {
 			"item": "minecraft:diamond_hoe"
+		},
+		"B": {
+			"item": "minecraft:slime_ball"
+		},
+		"R": {
+			"item": "minecraft:blaze_rod"
 		}
-	],
+	},
 	"result": {
 		"id": "minecraft:diamond_axe",
 		"components": {

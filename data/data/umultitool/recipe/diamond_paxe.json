@@ -1,15 +1,26 @@
 {
-	"type": "minecraft:crafting_shapeless",
+	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"group": "umultitool:paxe",
-	"ingredients": [
-		{
+	"pattern": [
+		"PBA",
+		" R ",
+		" R "
+	],
+	"key": {
+		"P": {
 			"item": "minecraft:diamond_pickaxe"
 		},
-		{
+		"A": {
 			"item": "minecraft:diamond_axe"
+		},
+		"B": {
+			"item": "minecraft:string"
+		},
+		"R": {
+			"item": "minecraft:stick"
 		}
-	],
+	},
 	"result": {
 		"id": "minecraft:diamond_axe",
 		"components": {

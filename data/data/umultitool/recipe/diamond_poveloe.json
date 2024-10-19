@@ -1,18 +1,29 @@
 {
-	"type": "minecraft:crafting_shapeless",
+	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"group": "umultitool:poveloe",
-	"ingredients": [
-		{
+	"pattern": [
+		"SBH",
+		"PR ",
+		" R "
+	],
+	"key": {
+		"S": {
 			"item": "minecraft:diamond_shovel"
 		},
-		{
+		"P": {
 			"item": "minecraft:diamond_pickaxe"
 		},
-		{
+		"H": {
 			"item": "minecraft:diamond_hoe"
+		},
+		"B": {
+			"item": "minecraft:slime_ball"
+		},
+		"R": {
+			"item": "minecraft:blaze_rod"
 		}
-	],
+	},
 	"result": {
 		"id": "minecraft:diamond_shovel",
 		"components": {

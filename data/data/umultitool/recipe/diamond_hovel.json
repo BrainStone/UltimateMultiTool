@@ -1,15 +1,26 @@
 {
-	"type": "minecraft:crafting_shapeless",
+	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"group": "umultitool:hovel",
-	"ingredients": [
-		{
+	"pattern": [
+		"SBH",
+		" R ",
+		" R "
+	],
+	"key": {
+		"S": {
 			"item": "minecraft:diamond_shovel"
 		},
-		{
+		"H": {
 			"item": "minecraft:diamond_hoe"
+		},
+		"B": {
+			"item": "minecraft:string"
+		},
+		"R": {
+			"item": "minecraft:stick"
 		}
-	],
+	},
 	"result": {
 		"id": "minecraft:diamond_shovel",
 		"components": {
