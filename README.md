@@ -205,4 +205,3 @@ real value is -2.8 because 4 + -2.8 = 1.2).
 | netherite_shaxoe  | 6.0           | 2.0          | 5.0                | -2.0              |
 | netherite_paxoe   | 5.5           | 2.1          | 4.5                | -1.9              |
 | netherite_paxeloe | 6.0           | 1.8          | 5.0                | -2.2              |
-

@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
-	"group": "umultitool:shaxe",
+	"group": "umultitool:diamond_shaxe",
 	"pattern": [
 		"SBA",
 		" R ",

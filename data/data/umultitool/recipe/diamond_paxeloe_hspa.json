@@ -1,13 +1,19 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
-	"group": "umultitool:diamond_haxe",
+	"group": "umultitool:diamond_paxeloe",
 	"pattern": [
-		"ABH",
-		" R ",
+		"HBP",
+		"SRA",
 		" R "
 	],
 	"key": {
+		"S": {
+			"item": "minecraft:diamond_shovel"
+		},
+		"P": {
+			"item": "minecraft:diamond_pickaxe"
+		},
 		"A": {
 			"item": "minecraft:diamond_axe"
 		},
@@ -15,30 +21,32 @@
 			"item": "minecraft:diamond_hoe"
 		},
 		"B": {
-			"item": "minecraft:string"
+			"item": "minecraft:lead"
 		},
 		"R": {
-			"item": "minecraft:stick"
+			"item": "minecraft:breeze_rod"
 		}
 	},
 	"result": {
 		"id": "minecraft:diamond_axe",
 		"components": {
-			"minecraft:item_name": "{translate:umultitool.diamond_haxe,fallback:'Diamond Haxe'}",
+			"minecraft:item_name": "{translate:umultitool.diamond_paxeloe,fallback:'Diamond Paxeloe'}",
 			"minecraft:lore": [
-				"{translate:umultitool.lore.tier1,fallback:'Tier 1 Multi Tool:'}",
+				"{translate:umultitool.lore.tier3,fallback:'Tier 3 Multi Tool:'}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Shovel}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_pickaxe,fallback:Pickaxe}]}",
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}",
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_hoe,fallback:Hoe}]}"
 			],
-			"minecraft:rarity": "uncommon",
-			"minecraft:custom_model_data": 1236876,
+			"minecraft:rarity": "epic",
+			"minecraft:custom_model_data": 1236879,
 			"minecraft:custom_data": {
 				"umultitool": {
 					"is_multitool": true,
 					"type": {
-						"name": "haxe",
-						"shovel": false,
-						"pickaxe": false,
+						"name": "paxeloe",
+						"shovel": true,
+						"pickaxe": true,
 						"axe": true,
 						"hoe": true
 					},
@@ -52,6 +60,16 @@
 						"correct_for_drops": false
 					},
 					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
 						"blocks": "#minecraft:mineable/axe",
 						"speed": 8.0,
 						"correct_for_drops": true
@@ -63,7 +81,7 @@
 					}
 				]
 			},
-			"minecraft:max_damage": 1718,
+			"minecraft:max_damage": 2030,
 			"minecraft:attribute_modifiers": {
 				"modifiers": [
 					{
@@ -74,7 +92,7 @@
 						"type": "minecraft:generic.attack_damage"
 					},
 					{
-						"amount": -1.5,
+						"amount": -2.2,
 						"id": "minecraft:base_attack_speed",
 						"operation": "add_value",
 						"slot": "mainhand",

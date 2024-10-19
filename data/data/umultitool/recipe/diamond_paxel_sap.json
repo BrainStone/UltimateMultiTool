@@ -1,46 +1,50 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
-	"group": "umultitool:diamond_haxe",
+	"group": "umultitool:diamond_paxel",
 	"pattern": [
-		"ABH",
-		" R ",
+		"SBP",
+		"AR ",
 		" R "
 	],
 	"key": {
+		"S": {
+			"item": "minecraft:diamond_shovel"
+		},
+		"P": {
+			"item": "minecraft:diamond_pickaxe"
+		},
 		"A": {
 			"item": "minecraft:diamond_axe"
 		},
-		"H": {
-			"item": "minecraft:diamond_hoe"
-		},
 		"B": {
-			"item": "minecraft:string"
+			"item": "minecraft:slime_ball"
 		},
 		"R": {
-			"item": "minecraft:stick"
+			"item": "minecraft:blaze_rod"
 		}
 	},
 	"result": {
 		"id": "minecraft:diamond_axe",
 		"components": {
-			"minecraft:item_name": "{translate:umultitool.diamond_haxe,fallback:'Diamond Haxe'}",
+			"minecraft:item_name": "{translate:umultitool.diamond_paxel,fallback:'Diamond Paxel'}",
 			"minecraft:lore": [
-				"{translate:umultitool.lore.tier1,fallback:'Tier 1 Multi Tool:'}",
-				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}",
-				"{text:'  ',extra:[{translate:umultitool.lore.contains_hoe,fallback:Hoe}]}"
+				"{translate:umultitool.lore.tier2,fallback:'Tier 2 Multi Tool:'}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Shovel}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_pickaxe,fallback:Pickaxe}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}"
 			],
-			"minecraft:rarity": "uncommon",
-			"minecraft:custom_model_data": 1236876,
+			"minecraft:rarity": "rare",
+			"minecraft:custom_model_data": 1236871,
 			"minecraft:custom_data": {
 				"umultitool": {
 					"is_multitool": true,
 					"type": {
-						"name": "haxe",
-						"shovel": false,
-						"pickaxe": false,
+						"name": "paxel",
+						"shovel": true,
+						"pickaxe": true,
 						"axe": true,
-						"hoe": true
+						"hoe": false
 					},
 					"material": "diamond"
 				}
@@ -52,29 +56,34 @@
 						"correct_for_drops": false
 					},
 					{
-						"blocks": "#minecraft:mineable/axe",
+						"blocks": "#minecraft:mineable/shovel",
 						"speed": 8.0,
 						"correct_for_drops": true
 					},
 					{
-						"blocks": "#minecraft:mineable/hoe",
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/axe",
 						"speed": 8.0,
 						"correct_for_drops": true
 					}
 				]
 			},
-			"minecraft:max_damage": 1718,
+			"minecraft:max_damage": 1874,
 			"minecraft:attribute_modifiers": {
 				"modifiers": [
 					{
-						"amount": 4.0,
+						"amount": 5.5,
 						"id": "minecraft:base_attack_damage",
 						"operation": "add_value",
 						"slot": "mainhand",
 						"type": "minecraft:generic.attack_damage"
 					},
 					{
-						"amount": -1.5,
+						"amount": -2.9,
 						"id": "minecraft:base_attack_speed",
 						"operation": "add_value",
 						"slot": "mainhand",

@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
-	"group": "umultitool:hovel",
+	"group": "umultitool:diamond_hovel",
 	"pattern": [
 		"SBH",
 		" R ",
