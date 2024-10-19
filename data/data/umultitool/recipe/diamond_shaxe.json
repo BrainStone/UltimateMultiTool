@@ -1,13 +1,10 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"category": "equipment",
-	"group": "umultitool:paxel",
+	"group": "umultitool:shaxe",
 	"ingredients": [
 		{
 			"item": "minecraft:diamond_shovel"
-		},
-		{
-			"item": "minecraft:diamond_pickaxe"
 		},
 		{
 			"item": "minecraft:diamond_axe"
@@ -16,22 +13,21 @@
 	"result": {
 		"id": "minecraft:diamond_axe",
 		"components": {
-			"minecraft:item_name": "{translate:umultitool.diamond_paxel,fallback:'Diamond Paxel'}",
+			"minecraft:item_name": "{translate:umultitool.diamond_shaxe,fallback:'Diamond Shaxe'}",
 			"minecraft:lore": [
-				"{translate:umultitool.lore.tier2,fallback:'Tier 2 Multi Tool:'}",
+				"{translate:umultitool.lore.tier1,fallback:'Tier 1 Multi Tool:'}",
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Shovel}]}",
-				"{text:'  ',extra:[{translate:umultitool.lore.contains_pickaxe,fallback:Pickaxe}]}",
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}"
 			],
-			"minecraft:rarity": "rare",
-			"minecraft:custom_model_data": 1236871,
+			"minecraft:rarity": "uncommon",
+			"minecraft:custom_model_data": 1236869,
 			"minecraft:custom_data": {
 				"umultitool": {
 					"is_multitool": true,
 					"type": {
-						"name": "paxel",
+						"name": "shaxe",
 						"shovel": true,
-						"pickaxe": true,
+						"pickaxe": false,
 						"axe": true,
 						"hoe": false
 					},
@@ -50,29 +46,24 @@
 						"correct_for_drops": true
 					},
 					{
-						"blocks": "#minecraft:mineable/pickaxe",
-						"speed": 8.0,
-						"correct_for_drops": true
-					},
-					{
 						"blocks": "#minecraft:mineable/axe",
 						"speed": 8.0,
 						"correct_for_drops": true
 					}
 				]
 			},
-			"minecraft:max_damage": 1874,
+			"minecraft:max_damage": 1718,
 			"minecraft:attribute_modifiers": {
 				"modifiers": [
 					{
-						"amount": 5.5,
+						"amount": 6.5,
 						"id": "minecraft:base_attack_damage",
 						"operation": "add_value",
 						"slot": "mainhand",
 						"type": "minecraft:generic.attack_damage"
 					},
 					{
-						"amount": -2.9,
+						"amount": -3.0,
 						"id": "minecraft:base_attack_speed",
 						"operation": "add_value",
 						"slot": "mainhand",

@@ -1,39 +1,35 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"category": "equipment",
-	"group": "umultitool:paxel",
+	"group": "umultitool:hovel",
 	"ingredients": [
 		{
 			"item": "minecraft:diamond_shovel"
 		},
 		{
-			"item": "minecraft:diamond_pickaxe"
-		},
-		{
-			"item": "minecraft:diamond_axe"
+			"item": "minecraft:diamond_hoe"
 		}
 	],
 	"result": {
-		"id": "minecraft:diamond_axe",
+		"id": "minecraft:diamond_shovel",
 		"components": {
-			"minecraft:item_name": "{translate:umultitool.diamond_paxel,fallback:'Diamond Paxel'}",
+			"minecraft:item_name": "{translate:umultitool.diamond_hovel,fallback:'Diamond Hovel'}",
 			"minecraft:lore": [
-				"{translate:umultitool.lore.tier2,fallback:'Tier 2 Multi Tool:'}",
+				"{translate:umultitool.lore.tier1,fallback:'Tier 1 Multi Tool:'}",
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Shovel}]}",
-				"{text:'  ',extra:[{translate:umultitool.lore.contains_pickaxe,fallback:Pickaxe}]}",
-				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}"
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_hoe,fallback:Hoe}]}"
 			],
-			"minecraft:rarity": "rare",
-			"minecraft:custom_model_data": 1236871,
+			"minecraft:rarity": "uncommon",
+			"minecraft:custom_model_data": 1236873,
 			"minecraft:custom_data": {
 				"umultitool": {
 					"is_multitool": true,
 					"type": {
-						"name": "paxel",
+						"name": "hovel",
 						"shovel": true,
-						"pickaxe": true,
-						"axe": true,
-						"hoe": false
+						"pickaxe": false,
+						"axe": false,
+						"hoe": true
 					},
 					"material": "diamond"
 				}
@@ -50,29 +46,24 @@
 						"correct_for_drops": true
 					},
 					{
-						"blocks": "#minecraft:mineable/pickaxe",
-						"speed": 8.0,
-						"correct_for_drops": true
-					},
-					{
-						"blocks": "#minecraft:mineable/axe",
+						"blocks": "#minecraft:mineable/hoe",
 						"speed": 8.0,
 						"correct_for_drops": true
 					}
 				]
 			},
-			"minecraft:max_damage": 1874,
+			"minecraft:max_damage": 1718,
 			"minecraft:attribute_modifiers": {
 				"modifiers": [
 					{
-						"amount": 5.5,
+						"amount": 2.5,
 						"id": "minecraft:base_attack_damage",
 						"operation": "add_value",
 						"slot": "mainhand",
 						"type": "minecraft:generic.attack_damage"
 					},
 					{
-						"amount": -2.9,
+						"amount": -1.5,
 						"id": "minecraft:base_attack_speed",
 						"operation": "add_value",
 						"slot": "mainhand",
