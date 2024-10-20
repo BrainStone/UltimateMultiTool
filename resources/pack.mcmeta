@@ -21,7 +21,7 @@
 				"color": "white"
 			},
 			{
-				"text": "\nDEV VERSION",
+				"text": "\nDEV",
 				"color": "gold"
 			},
 			{
@@ -29,9 +29,18 @@
 				"color": "gray"
 			},
 			{
-				"text": "BrainStone",
+				"text": "Brain",
 				"bold": true,
 				"color": "green"
+			},
+			{
+				"text": " & ",
+				"color": "gray"
+			},
+			{
+				"text": "Shadow",
+				"bold": true,
+				"color": "aqua"
 			}
 		]
 	}
