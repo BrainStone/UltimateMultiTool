@@ -1,3 +1,8 @@
+# v0.6
+
+- Shadow added some textures
+- Added recipes for all materials
+
 # v0.5
 
 - Added shaped recipes for diamond tools
