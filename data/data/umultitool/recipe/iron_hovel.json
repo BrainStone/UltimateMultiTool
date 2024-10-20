@@ -53,12 +53,12 @@
 					},
 					{
 						"blocks": "#minecraft:mineable/shovel",
-						"speed": 8.0,
+						"speed": 6.0,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/hoe",
-						"speed": 8.0,
+						"speed": 6.0,
 						"correct_for_drops": true
 					}
 				]

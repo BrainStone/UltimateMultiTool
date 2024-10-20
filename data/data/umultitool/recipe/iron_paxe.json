@@ -53,12 +53,12 @@
 					},
 					{
 						"blocks": "#minecraft:mineable/pickaxe",
-						"speed": 8.0,
+						"speed": 6.0,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/axe",
-						"speed": 8.0,
+						"speed": 6.0,
 						"correct_for_drops": true
 					}
 				]
