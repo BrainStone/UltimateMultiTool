@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_netherite_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_netherite_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "umultitool:netherite_hovel"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_netherite_shovel",
+			"has_netherite_hoe",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:netherite_hovel"
+		]
+	}
+}

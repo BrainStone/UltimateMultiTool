@@ -1,0 +1,153 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_wooden_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:wooden_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_wooden_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:wooden_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_wooden_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:wooden_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_wooden_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:wooden_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_ashp": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_ashp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_asph": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_asph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsap": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_hsap"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hspa": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_hspa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psah": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_psah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psha": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_psha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sahp": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_sahp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_saph": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_saph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_shap": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_shap"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_shpa": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_shpa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_spah": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_spah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_spha": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxeloe_spha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_wooden_shovel",
+			"has_wooden_pickaxe",
+			"has_wooden_axe",
+			"has_wooden_hoe",
+			"has_the_recipe_ashp",
+			"has_the_recipe_asph",
+			"has_the_recipe_hsap",
+			"has_the_recipe_hspa",
+			"has_the_recipe_psah",
+			"has_the_recipe_psha",
+			"has_the_recipe_sahp",
+			"has_the_recipe_saph",
+			"has_the_recipe_shap",
+			"has_the_recipe_shpa",
+			"has_the_recipe_spah",
+			"has_the_recipe_spha"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:wooden_paxeloe_ashp",
+			"umultitool:wooden_paxeloe_asph",
+			"umultitool:wooden_paxeloe_hsap",
+			"umultitool:wooden_paxeloe_hspa",
+			"umultitool:wooden_paxeloe_psah",
+			"umultitool:wooden_paxeloe_psha",
+			"umultitool:wooden_paxeloe_sahp",
+			"umultitool:wooden_paxeloe_saph",
+			"umultitool:wooden_paxeloe_shap",
+			"umultitool:wooden_paxeloe_shpa",
+			"umultitool:wooden_paxeloe_spah",
+			"umultitool:wooden_paxeloe_spha"
+		]
+	}
+}

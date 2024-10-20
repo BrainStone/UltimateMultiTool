@@ -1,0 +1,87 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"group": "umultitool:iron_shaxe",
+	"pattern": [
+		"SBA",
+		" R ",
+		" R "
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:iron_shovel"
+		},
+		"A": {
+			"item": "minecraft:iron_axe"
+		},
+		"B": {
+			"item": "minecraft:string"
+		},
+		"R": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"id": "minecraft:iron_axe",
+		"components": {
+			"minecraft:item_name": "{translate:umultitool.iron_shaxe,fallback:'Iron Shaxe'}",
+			"minecraft:lore": [
+				"{translate:umultitool.lore.tier1,fallback:'Tier 1 Multi Tool:'}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Shovel}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}"
+			],
+			"minecraft:rarity": "uncommon",
+			"minecraft:custom_model_data": 1236869,
+			"minecraft:custom_data": {
+				"umultitool": {
+					"is_multitool": true,
+					"type": {
+						"name": "shaxe",
+						"shovel": true,
+						"pickaxe": false,
+						"axe": true,
+						"hoe": false
+					},
+					"material": "iron"
+				}
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:incorrect_for_iron_tool",
+						"correct_for_drops": false
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					}
+				]
+			},
+			"minecraft:max_damage": 275,
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"amount": 6.0,
+						"id": "minecraft:base_attack_damage",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_damage"
+					},
+					{
+						"amount": -3.0,
+						"id": "minecraft:base_attack_speed",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_speed"
+					}
+				]
+			}
+		}
+	}
+}

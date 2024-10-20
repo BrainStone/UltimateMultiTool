@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_netherite_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_netherite_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_netherite_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_hps": {
+			"conditions": {
+				"recipe": "umultitool:netherite_poveloe_hps"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsp": {
+			"conditions": {
+				"recipe": "umultitool:netherite_poveloe_hsp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_phs": {
+			"conditions": {
+				"recipe": "umultitool:netherite_poveloe_phs"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psh": {
+			"conditions": {
+				"recipe": "umultitool:netherite_poveloe_psh"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_shp": {
+			"conditions": {
+				"recipe": "umultitool:netherite_poveloe_shp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sph": {
+			"conditions": {
+				"recipe": "umultitool:netherite_poveloe_sph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_netherite_shovel",
+			"has_netherite_pickaxe",
+			"has_netherite_hoe",
+			"has_the_recipe_hps",
+			"has_the_recipe_hsp",
+			"has_the_recipe_phs",
+			"has_the_recipe_psh",
+			"has_the_recipe_shp",
+			"has_the_recipe_sph"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:netherite_poveloe_hps",
+			"umultitool:netherite_poveloe_hsp",
+			"umultitool:netherite_poveloe_phs",
+			"umultitool:netherite_poveloe_psh",
+			"umultitool:netherite_poveloe_shp",
+			"umultitool:netherite_poveloe_sph"
+		]
+	}
+}

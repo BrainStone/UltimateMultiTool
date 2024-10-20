@@ -1,0 +1,153 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_netherite_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_netherite_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_netherite_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_netherite_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_ashp": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_ashp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_asph": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_asph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsap": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_hsap"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hspa": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_hspa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psah": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_psah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psha": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_psha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sahp": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_sahp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_saph": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_saph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_shap": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_shap"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_shpa": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_shpa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_spah": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_spah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_spha": {
+			"conditions": {
+				"recipe": "umultitool:netherite_paxeloe_spha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_netherite_shovel",
+			"has_netherite_pickaxe",
+			"has_netherite_axe",
+			"has_netherite_hoe",
+			"has_the_recipe_ashp",
+			"has_the_recipe_asph",
+			"has_the_recipe_hsap",
+			"has_the_recipe_hspa",
+			"has_the_recipe_psah",
+			"has_the_recipe_psha",
+			"has_the_recipe_sahp",
+			"has_the_recipe_saph",
+			"has_the_recipe_shap",
+			"has_the_recipe_shpa",
+			"has_the_recipe_spah",
+			"has_the_recipe_spha"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:netherite_paxeloe_ashp",
+			"umultitool:netherite_paxeloe_asph",
+			"umultitool:netherite_paxeloe_hsap",
+			"umultitool:netherite_paxeloe_hspa",
+			"umultitool:netherite_paxeloe_psah",
+			"umultitool:netherite_paxeloe_psha",
+			"umultitool:netherite_paxeloe_sahp",
+			"umultitool:netherite_paxeloe_saph",
+			"umultitool:netherite_paxeloe_shap",
+			"umultitool:netherite_paxeloe_shpa",
+			"umultitool:netherite_paxeloe_spah",
+			"umultitool:netherite_paxeloe_spha"
+		]
+	}
+}

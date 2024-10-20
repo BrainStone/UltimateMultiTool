@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_stone_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stone_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_stone_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stone_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_stone_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stone_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_hps": {
+			"conditions": {
+				"recipe": "umultitool:stone_poveloe_hps"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsp": {
+			"conditions": {
+				"recipe": "umultitool:stone_poveloe_hsp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_phs": {
+			"conditions": {
+				"recipe": "umultitool:stone_poveloe_phs"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psh": {
+			"conditions": {
+				"recipe": "umultitool:stone_poveloe_psh"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_shp": {
+			"conditions": {
+				"recipe": "umultitool:stone_poveloe_shp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sph": {
+			"conditions": {
+				"recipe": "umultitool:stone_poveloe_sph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_stone_shovel",
+			"has_stone_pickaxe",
+			"has_stone_hoe",
+			"has_the_recipe_hps",
+			"has_the_recipe_hsp",
+			"has_the_recipe_phs",
+			"has_the_recipe_psh",
+			"has_the_recipe_shp",
+			"has_the_recipe_sph"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:stone_poveloe_hps",
+			"umultitool:stone_poveloe_hsp",
+			"umultitool:stone_poveloe_phs",
+			"umultitool:stone_poveloe_psh",
+			"umultitool:stone_poveloe_shp",
+			"umultitool:stone_poveloe_sph"
+		]
+	}
+}

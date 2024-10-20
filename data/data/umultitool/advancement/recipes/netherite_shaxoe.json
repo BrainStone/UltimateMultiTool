@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_netherite_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_netherite_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_netherite_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_ahs": {
+			"conditions": {
+				"recipe": "umultitool:netherite_shaxoe_ahs"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_ash": {
+			"conditions": {
+				"recipe": "umultitool:netherite_shaxoe_ash"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_has": {
+			"conditions": {
+				"recipe": "umultitool:netherite_shaxoe_has"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsa": {
+			"conditions": {
+				"recipe": "umultitool:netherite_shaxoe_hsa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sah": {
+			"conditions": {
+				"recipe": "umultitool:netherite_shaxoe_sah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sha": {
+			"conditions": {
+				"recipe": "umultitool:netherite_shaxoe_sha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_netherite_shovel",
+			"has_netherite_axe",
+			"has_netherite_hoe",
+			"has_the_recipe_ahs",
+			"has_the_recipe_ash",
+			"has_the_recipe_has",
+			"has_the_recipe_hsa",
+			"has_the_recipe_sah",
+			"has_the_recipe_sha"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:netherite_shaxoe_ahs",
+			"umultitool:netherite_shaxoe_ash",
+			"umultitool:netherite_shaxoe_has",
+			"umultitool:netherite_shaxoe_hsa",
+			"umultitool:netherite_shaxoe_sah",
+			"umultitool:netherite_shaxoe_sha"
+		]
+	}
+}

@@ -1,0 +1,153 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_iron_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_iron_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_iron_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_iron_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_ashp": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_ashp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_asph": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_asph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsap": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_hsap"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hspa": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_hspa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psah": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_psah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psha": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_psha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sahp": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_sahp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_saph": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_saph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_shap": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_shap"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_shpa": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_shpa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_spah": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_spah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_spha": {
+			"conditions": {
+				"recipe": "umultitool:iron_paxeloe_spha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_iron_shovel",
+			"has_iron_pickaxe",
+			"has_iron_axe",
+			"has_iron_hoe",
+			"has_the_recipe_ashp",
+			"has_the_recipe_asph",
+			"has_the_recipe_hsap",
+			"has_the_recipe_hspa",
+			"has_the_recipe_psah",
+			"has_the_recipe_psha",
+			"has_the_recipe_sahp",
+			"has_the_recipe_saph",
+			"has_the_recipe_shap",
+			"has_the_recipe_shpa",
+			"has_the_recipe_spah",
+			"has_the_recipe_spha"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:iron_paxeloe_ashp",
+			"umultitool:iron_paxeloe_asph",
+			"umultitool:iron_paxeloe_hsap",
+			"umultitool:iron_paxeloe_hspa",
+			"umultitool:iron_paxeloe_psah",
+			"umultitool:iron_paxeloe_psha",
+			"umultitool:iron_paxeloe_sahp",
+			"umultitool:iron_paxeloe_saph",
+			"umultitool:iron_paxeloe_shap",
+			"umultitool:iron_paxeloe_shpa",
+			"umultitool:iron_paxeloe_spah",
+			"umultitool:iron_paxeloe_spha"
+		]
+	}
+}

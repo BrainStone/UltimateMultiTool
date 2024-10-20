@@ -1,0 +1,96 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"group": "umultitool:iron_paxel",
+	"pattern": [
+		"PBS",
+		"AR ",
+		" R "
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:iron_shovel"
+		},
+		"P": {
+			"item": "minecraft:iron_pickaxe"
+		},
+		"A": {
+			"item": "minecraft:iron_axe"
+		},
+		"B": {
+			"item": "minecraft:slime_ball"
+		},
+		"R": {
+			"item": "minecraft:blaze_rod"
+		}
+	},
+	"result": {
+		"id": "minecraft:iron_axe",
+		"components": {
+			"minecraft:item_name": "{translate:umultitool.iron_paxel,fallback:'Iron Paxel'}",
+			"minecraft:lore": [
+				"{translate:umultitool.lore.tier2,fallback:'Tier 2 Multi Tool:'}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Shovel}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_pickaxe,fallback:Pickaxe}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}"
+			],
+			"minecraft:rarity": "rare",
+			"minecraft:custom_model_data": 1236871,
+			"minecraft:custom_data": {
+				"umultitool": {
+					"is_multitool": true,
+					"type": {
+						"name": "paxel",
+						"shovel": true,
+						"pickaxe": true,
+						"axe": true,
+						"hoe": false
+					},
+					"material": "iron"
+				}
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:incorrect_for_iron_tool",
+						"correct_for_drops": false
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					}
+				]
+			},
+			"minecraft:max_damage": 300,
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"amount": 5.0,
+						"id": "minecraft:base_attack_damage",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_damage"
+					},
+					{
+						"amount": -3.0,
+						"id": "minecraft:base_attack_speed",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_speed"
+					}
+				]
+			}
+		}
+	}
+}

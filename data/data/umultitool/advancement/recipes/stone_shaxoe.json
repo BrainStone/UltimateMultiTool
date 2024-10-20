@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_stone_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stone_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_stone_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stone_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_stone_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stone_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_ahs": {
+			"conditions": {
+				"recipe": "umultitool:stone_shaxoe_ahs"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_ash": {
+			"conditions": {
+				"recipe": "umultitool:stone_shaxoe_ash"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_has": {
+			"conditions": {
+				"recipe": "umultitool:stone_shaxoe_has"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsa": {
+			"conditions": {
+				"recipe": "umultitool:stone_shaxoe_hsa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sah": {
+			"conditions": {
+				"recipe": "umultitool:stone_shaxoe_sah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sha": {
+			"conditions": {
+				"recipe": "umultitool:stone_shaxoe_sha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_stone_shovel",
+			"has_stone_axe",
+			"has_stone_hoe",
+			"has_the_recipe_ahs",
+			"has_the_recipe_ash",
+			"has_the_recipe_has",
+			"has_the_recipe_hsa",
+			"has_the_recipe_sah",
+			"has_the_recipe_sha"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:stone_shaxoe_ahs",
+			"umultitool:stone_shaxoe_ash",
+			"umultitool:stone_shaxoe_has",
+			"umultitool:stone_shaxoe_hsa",
+			"umultitool:stone_shaxoe_sah",
+			"umultitool:stone_shaxoe_sha"
+		]
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_golden_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:golden_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_golden_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:golden_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_golden_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:golden_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_aps": {
+			"conditions": {
+				"recipe": "umultitool:golden_paxel_aps"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_asp": {
+			"conditions": {
+				"recipe": "umultitool:golden_paxel_asp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_pas": {
+			"conditions": {
+				"recipe": "umultitool:golden_paxel_pas"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psa": {
+			"conditions": {
+				"recipe": "umultitool:golden_paxel_psa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sap": {
+			"conditions": {
+				"recipe": "umultitool:golden_paxel_sap"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_spa": {
+			"conditions": {
+				"recipe": "umultitool:golden_paxel_spa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_golden_shovel",
+			"has_golden_pickaxe",
+			"has_golden_axe",
+			"has_the_recipe_aps",
+			"has_the_recipe_asp",
+			"has_the_recipe_pas",
+			"has_the_recipe_psa",
+			"has_the_recipe_sap",
+			"has_the_recipe_spa"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:golden_paxel_aps",
+			"umultitool:golden_paxel_asp",
+			"umultitool:golden_paxel_pas",
+			"umultitool:golden_paxel_psa",
+			"umultitool:golden_paxel_sap",
+			"umultitool:golden_paxel_spa"
+		]
+	}
+}

@@ -1,0 +1,153 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_stone_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stone_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_stone_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stone_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_stone_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stone_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_stone_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stone_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_ashp": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_ashp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_asph": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_asph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsap": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_hsap"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hspa": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_hspa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psah": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_psah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psha": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_psha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sahp": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_sahp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_saph": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_saph"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_shap": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_shap"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_shpa": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_shpa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_spah": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_spah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_spha": {
+			"conditions": {
+				"recipe": "umultitool:stone_paxeloe_spha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_stone_shovel",
+			"has_stone_pickaxe",
+			"has_stone_axe",
+			"has_stone_hoe",
+			"has_the_recipe_ashp",
+			"has_the_recipe_asph",
+			"has_the_recipe_hsap",
+			"has_the_recipe_hspa",
+			"has_the_recipe_psah",
+			"has_the_recipe_psha",
+			"has_the_recipe_sahp",
+			"has_the_recipe_saph",
+			"has_the_recipe_shap",
+			"has_the_recipe_shpa",
+			"has_the_recipe_spah",
+			"has_the_recipe_spha"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:stone_paxeloe_ashp",
+			"umultitool:stone_paxeloe_asph",
+			"umultitool:stone_paxeloe_hsap",
+			"umultitool:stone_paxeloe_hspa",
+			"umultitool:stone_paxeloe_psah",
+			"umultitool:stone_paxeloe_psha",
+			"umultitool:stone_paxeloe_sahp",
+			"umultitool:stone_paxeloe_saph",
+			"umultitool:stone_paxeloe_shap",
+			"umultitool:stone_paxeloe_shpa",
+			"umultitool:stone_paxeloe_spah",
+			"umultitool:stone_paxeloe_spha"
+		]
+	}
+}

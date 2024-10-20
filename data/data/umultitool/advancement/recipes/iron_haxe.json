@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_iron_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_iron_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "umultitool:iron_haxe"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_iron_axe",
+			"has_iron_hoe",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:iron_haxe"
+		]
+	}
+}

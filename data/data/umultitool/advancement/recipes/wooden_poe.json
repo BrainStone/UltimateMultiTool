@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_wooden_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:wooden_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_wooden_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:wooden_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "umultitool:wooden_poe"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_wooden_pickaxe",
+			"has_wooden_hoe",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:wooden_poe"
+		]
+	}
+}

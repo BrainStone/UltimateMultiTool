@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_wooden_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:wooden_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_wooden_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:wooden_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_wooden_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:wooden_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_aps": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxel_aps"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_asp": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxel_asp"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_pas": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxel_pas"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_psa": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxel_psa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sap": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxel_sap"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_spa": {
+			"conditions": {
+				"recipe": "umultitool:wooden_paxel_spa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_wooden_shovel",
+			"has_wooden_pickaxe",
+			"has_wooden_axe",
+			"has_the_recipe_aps",
+			"has_the_recipe_asp",
+			"has_the_recipe_pas",
+			"has_the_recipe_psa",
+			"has_the_recipe_sap",
+			"has_the_recipe_spa"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:wooden_paxel_aps",
+			"umultitool:wooden_paxel_asp",
+			"umultitool:wooden_paxel_pas",
+			"umultitool:wooden_paxel_psa",
+			"umultitool:wooden_paxel_sap",
+			"umultitool:wooden_paxel_spa"
+		]
+	}
+}

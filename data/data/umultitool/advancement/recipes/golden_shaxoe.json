@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_golden_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:golden_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_golden_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:golden_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_golden_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:golden_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_ahs": {
+			"conditions": {
+				"recipe": "umultitool:golden_shaxoe_ahs"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_ash": {
+			"conditions": {
+				"recipe": "umultitool:golden_shaxoe_ash"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_has": {
+			"conditions": {
+				"recipe": "umultitool:golden_shaxoe_has"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsa": {
+			"conditions": {
+				"recipe": "umultitool:golden_shaxoe_hsa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sah": {
+			"conditions": {
+				"recipe": "umultitool:golden_shaxoe_sah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sha": {
+			"conditions": {
+				"recipe": "umultitool:golden_shaxoe_sha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_golden_shovel",
+			"has_golden_axe",
+			"has_golden_hoe",
+			"has_the_recipe_ahs",
+			"has_the_recipe_ash",
+			"has_the_recipe_has",
+			"has_the_recipe_hsa",
+			"has_the_recipe_sah",
+			"has_the_recipe_sha"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:golden_shaxoe_ahs",
+			"umultitool:golden_shaxoe_ash",
+			"umultitool:golden_shaxoe_has",
+			"umultitool:golden_shaxoe_hsa",
+			"umultitool:golden_shaxoe_sah",
+			"umultitool:golden_shaxoe_sha"
+		]
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_iron_pickaxe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_pickaxe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_iron_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "umultitool:iron_poe"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_iron_pickaxe",
+			"has_iron_hoe",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:iron_poe"
+		]
+	}
+}

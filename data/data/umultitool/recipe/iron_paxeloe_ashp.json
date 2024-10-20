@@ -1,0 +1,105 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"group": "umultitool:iron_paxeloe",
+	"pattern": [
+		"ABH",
+		"SRP",
+		" R "
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:iron_shovel"
+		},
+		"P": {
+			"item": "minecraft:iron_pickaxe"
+		},
+		"A": {
+			"item": "minecraft:iron_axe"
+		},
+		"H": {
+			"item": "minecraft:iron_hoe"
+		},
+		"B": {
+			"item": "minecraft:lead"
+		},
+		"R": {
+			"item": "minecraft:breeze_rod"
+		}
+	},
+	"result": {
+		"id": "minecraft:iron_axe",
+		"components": {
+			"minecraft:item_name": "{translate:umultitool.iron_paxeloe,fallback:'Iron Paxeloe'}",
+			"minecraft:lore": [
+				"{translate:umultitool.lore.tier3,fallback:'Tier 3 Multi Tool:'}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Shovel}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_pickaxe,fallback:Pickaxe}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_hoe,fallback:Hoe}]}"
+			],
+			"minecraft:rarity": "epic",
+			"minecraft:custom_model_data": 1236879,
+			"minecraft:custom_data": {
+				"umultitool": {
+					"is_multitool": true,
+					"type": {
+						"name": "paxeloe",
+						"shovel": true,
+						"pickaxe": true,
+						"axe": true,
+						"hoe": true
+					},
+					"material": "iron"
+				}
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:incorrect_for_iron_tool",
+						"correct_for_drops": false
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					}
+				]
+			},
+			"minecraft:max_damage": 325,
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"amount": 3.5,
+						"id": "minecraft:base_attack_damage",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_damage"
+					},
+					{
+						"amount": -2.5,
+						"id": "minecraft:base_attack_speed",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_speed"
+					}
+				]
+			}
+		}
+	}
+}

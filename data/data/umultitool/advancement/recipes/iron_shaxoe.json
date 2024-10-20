@@ -1,0 +1,94 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_iron_shovel": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_shovel"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_iron_axe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_axe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_iron_hoe": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_hoe"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe_ahs": {
+			"conditions": {
+				"recipe": "umultitool:iron_shaxoe_ahs"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_ash": {
+			"conditions": {
+				"recipe": "umultitool:iron_shaxoe_ash"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_has": {
+			"conditions": {
+				"recipe": "umultitool:iron_shaxoe_has"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_hsa": {
+			"conditions": {
+				"recipe": "umultitool:iron_shaxoe_hsa"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sah": {
+			"conditions": {
+				"recipe": "umultitool:iron_shaxoe_sah"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		},
+		"has_the_recipe_sha": {
+			"conditions": {
+				"recipe": "umultitool:iron_shaxoe_sha"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_iron_shovel",
+			"has_iron_axe",
+			"has_iron_hoe",
+			"has_the_recipe_ahs",
+			"has_the_recipe_ash",
+			"has_the_recipe_has",
+			"has_the_recipe_hsa",
+			"has_the_recipe_sah",
+			"has_the_recipe_sha"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"umultitool:iron_shaxoe_ahs",
+			"umultitool:iron_shaxoe_ash",
+			"umultitool:iron_shaxoe_has",
+			"umultitool:iron_shaxoe_hsa",
+			"umultitool:iron_shaxoe_sah",
+			"umultitool:iron_shaxoe_sha"
+		]
+	}
+}
