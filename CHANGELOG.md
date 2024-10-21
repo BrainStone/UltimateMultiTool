@@ -1,3 +1,7 @@
+# v0.8
+
+- Implemented Netherite upgrade logic
+
 # v0.7
 
 - Finished all textures
