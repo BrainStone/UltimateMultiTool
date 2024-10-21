@@ -37,6 +37,7 @@
 					"is_multitool": true,
 					"type": {
 						"name": "povel",
+						"tier": 1,
 						"shovel": true,
 						"pickaxe": true,
 						"axe": false,

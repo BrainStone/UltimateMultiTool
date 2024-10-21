@@ -41,6 +41,7 @@
 					"is_multitool": true,
 					"type": {
 						"name": "shaxoe",
+						"tier": 2,
 						"shovel": true,
 						"pickaxe": false,
 						"axe": true,

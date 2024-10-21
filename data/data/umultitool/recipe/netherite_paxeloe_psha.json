@@ -45,6 +45,7 @@
 					"is_multitool": true,
 					"type": {
 						"name": "paxeloe",
+						"tier": 3,
 						"shovel": true,
 						"pickaxe": true,
 						"axe": true,

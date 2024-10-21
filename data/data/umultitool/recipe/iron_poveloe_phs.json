@@ -41,6 +41,7 @@
 					"is_multitool": true,
 					"type": {
 						"name": "poveloe",
+						"tier": 2,
 						"shovel": true,
 						"pickaxe": true,
 						"axe": false,

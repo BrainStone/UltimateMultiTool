@@ -37,6 +37,7 @@
 					"is_multitool": true,
 					"type": {
 						"name": "paxe",
+						"tier": 1,
 						"shovel": false,
 						"pickaxe": true,
 						"axe": true,
