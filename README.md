@@ -5,9 +5,14 @@ The ultimate Minecraft MultiTool datapack (and resourcepack)
 ## Features
 
 - Allows combining any combination of tools
+- Discoverable recipes for the vanilla recipe book
 - Upgrading your diamond tools via the smithing table works (WIP)
 - Easy to use commands to give the items outright: `/loot give @s loot umultitool:<material>_<tool>` (example:
 	`/loot give @s loot umultitool:netherite_paxeloe`)
+
+# Screenshots
+
+![pictures/all_tools.png](pictures/all_tools.png)
 
 ## Useful Stuff
 
