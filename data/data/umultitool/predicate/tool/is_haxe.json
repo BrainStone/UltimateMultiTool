@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicates": {
+    "equipment": {
+      "mainhand": {
+        "items": "#umultitool:all_tools",
+        "predicates": {
+          "minecraft:custom_data": {
+            "umultitool": {
+              "is_multitool": true,
+              "type": {
+                "name": "haxe"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
