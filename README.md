@@ -8,6 +8,8 @@ The ultimate Minecraft MultiTool datapack (and resourcepack)
 - Discoverable recipes for the vanilla recipe book
 - Upgrading your diamond tools via the smithing table works
 - Enchantments and item renaming works. Everything with an axe can additionally receive damage enhancing enchantments
+- Secondary tool functions partially preserved. The priority for which tool's secondary functions are retained is: axe,
+	shovel, hoe
 - Easy to use commands to give the items outright: `/loot give @s loot umultitool:<material>_<tool>` (example:
 	`/loot give @s loot umultitool:netherite_paxeloe`)
 - Only one continuously running command with a predicate in place to further reduce the impact (required for the
