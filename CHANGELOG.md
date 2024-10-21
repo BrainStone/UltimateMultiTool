@@ -1,3 +1,8 @@
+# v0.7
+
+- Finished all textures
+- Added loot_tables and item_modifiers to allow more easy creation of the tools via commands
+
 # v0.6
 
 - Shadow added some textures
