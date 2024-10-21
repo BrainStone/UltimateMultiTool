@@ -1,0 +1,12 @@
+# Gives all wooden tools
+loot give @s loot umultitool:wooden_povel
+loot give @s loot umultitool:wooden_shaxe
+loot give @s loot umultitool:wooden_paxe
+loot give @s loot umultitool:wooden_paxel
+loot give @s loot umultitool:wooden_hovel
+loot give @s loot umultitool:wooden_poe
+loot give @s loot umultitool:wooden_poveloe
+loot give @s loot umultitool:wooden_haxe
+loot give @s loot umultitool:wooden_shaxoe
+loot give @s loot umultitool:wooden_paxoe
+loot give @s loot umultitool:wooden_paxeloe

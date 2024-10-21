@@ -1,0 +1,12 @@
+# Gives all stone tools
+loot give @s loot umultitool:stone_povel
+loot give @s loot umultitool:stone_shaxe
+loot give @s loot umultitool:stone_paxe
+loot give @s loot umultitool:stone_paxel
+loot give @s loot umultitool:stone_hovel
+loot give @s loot umultitool:stone_poe
+loot give @s loot umultitool:stone_poveloe
+loot give @s loot umultitool:stone_haxe
+loot give @s loot umultitool:stone_shaxoe
+loot give @s loot umultitool:stone_paxoe
+loot give @s loot umultitool:stone_paxeloe

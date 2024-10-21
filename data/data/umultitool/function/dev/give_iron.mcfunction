@@ -1,0 +1,12 @@
+# Gives all iron tools
+loot give @s loot umultitool:iron_povel
+loot give @s loot umultitool:iron_shaxe
+loot give @s loot umultitool:iron_paxe
+loot give @s loot umultitool:iron_paxel
+loot give @s loot umultitool:iron_hovel
+loot give @s loot umultitool:iron_poe
+loot give @s loot umultitool:iron_poveloe
+loot give @s loot umultitool:iron_haxe
+loot give @s loot umultitool:iron_shaxoe
+loot give @s loot umultitool:iron_paxoe
+loot give @s loot umultitool:iron_paxeloe

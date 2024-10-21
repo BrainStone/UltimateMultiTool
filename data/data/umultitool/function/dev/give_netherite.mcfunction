@@ -1,0 +1,12 @@
+# Gives all netherite tools
+loot give @s loot umultitool:netherite_povel
+loot give @s loot umultitool:netherite_shaxe
+loot give @s loot umultitool:netherite_paxe
+loot give @s loot umultitool:netherite_paxel
+loot give @s loot umultitool:netherite_hovel
+loot give @s loot umultitool:netherite_poe
+loot give @s loot umultitool:netherite_poveloe
+loot give @s loot umultitool:netherite_haxe
+loot give @s loot umultitool:netherite_shaxoe
+loot give @s loot umultitool:netherite_paxoe
+loot give @s loot umultitool:netherite_paxeloe

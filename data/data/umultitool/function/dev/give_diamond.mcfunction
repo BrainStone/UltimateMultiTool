@@ -1,0 +1,12 @@
+# Gives all diamond tools
+loot give @s loot umultitool:diamond_povel
+loot give @s loot umultitool:diamond_shaxe
+loot give @s loot umultitool:diamond_paxe
+loot give @s loot umultitool:diamond_paxel
+loot give @s loot umultitool:diamond_hovel
+loot give @s loot umultitool:diamond_poe
+loot give @s loot umultitool:diamond_poveloe
+loot give @s loot umultitool:diamond_haxe
+loot give @s loot umultitool:diamond_shaxoe
+loot give @s loot umultitool:diamond_paxoe
+loot give @s loot umultitool:diamond_paxeloe
