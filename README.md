@@ -12,7 +12,7 @@ The ultimate Minecraft MultiTool datapack (and resourcepack)
 
 # Screenshots
 
-![pictures/all_tools.png](pictures/all_tools.png "All Tools")
+![Showing off all tools available in this datapack.](pictures/all_tools.png "All Tools")
 
 ## Useful Stuff
 
