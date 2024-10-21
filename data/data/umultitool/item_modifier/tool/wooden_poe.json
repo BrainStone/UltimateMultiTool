@@ -1,0 +1,70 @@
+[
+	{
+		"function": "set_item",
+		"item": "minecraft:wooden_hoe"
+	},
+	{
+		"function": "set_components",
+		"components": {
+			"minecraft:item_name": "{translate:umultitool.wooden_poe,fallback:'Wooden Poe'}",
+			"minecraft:lore": [
+				"{translate:umultitool.lore.tier1,fallback:'Tier 1 Multi Tool:'}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_pickaxe,fallback:Pickaxe}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_hoe,fallback:Hoe}]}"
+			],
+			"minecraft:rarity": "uncommon",
+			"minecraft:custom_model_data": 1236874,
+			"minecraft:custom_data": {
+				"umultitool": {
+					"is_multitool": true,
+					"type": {
+						"name": "poe",
+						"tier": 1,
+						"shovel": false,
+						"pickaxe": true,
+						"axe": false,
+						"hoe": true
+					},
+					"material": "wooden"
+				}
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:incorrect_for_wooden_tool",
+						"correct_for_drops": false
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 2.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 2.0,
+						"correct_for_drops": true
+					}
+				]
+			},
+			"minecraft:max_damage": 65,
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"amount": 0.5,
+						"id": "minecraft:base_attack_damage",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_damage"
+					},
+					{
+						"amount": -2.9,
+						"id": "minecraft:base_attack_speed",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_speed"
+					}
+				]
+			}
+		}
+	}
+]

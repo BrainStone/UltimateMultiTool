@@ -1,0 +1,70 @@
+[
+	{
+		"function": "set_item",
+		"item": "minecraft:diamond_axe"
+	},
+	{
+		"function": "set_components",
+		"components": {
+			"minecraft:item_name": "{translate:umultitool.diamond_paxe,fallback:'Diamond Paxe'}",
+			"minecraft:lore": [
+				"{translate:umultitool.lore.tier1,fallback:'Tier 1 Multi Tool:'}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_pickaxe,fallback:Pickaxe}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}"
+			],
+			"minecraft:rarity": "uncommon",
+			"minecraft:custom_model_data": 1236870,
+			"minecraft:custom_data": {
+				"umultitool": {
+					"is_multitool": true,
+					"type": {
+						"name": "paxe",
+						"tier": 1,
+						"shovel": false,
+						"pickaxe": true,
+						"axe": true,
+						"hoe": false
+					},
+					"material": "diamond"
+				}
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:incorrect_for_diamond_tool",
+						"correct_for_drops": false
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 8.0,
+						"correct_for_drops": true
+					}
+				]
+			},
+			"minecraft:max_damage": 1718,
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"amount": 6.0,
+						"id": "minecraft:base_attack_damage",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_damage"
+					},
+					{
+						"amount": -2.9,
+						"id": "minecraft:base_attack_speed",
+						"operation": "add_value",
+						"slot": "mainhand",
+						"type": "minecraft:generic.attack_speed"
+					}
+				]
+			}
+		}
+	}
+]

@@ -5,7 +5,9 @@ The ultimate Minecraft MultiTool datapack (and resourcepack)
 ## Features
 
 - Allows combining any combination of tools
-- Increasing the amount of combined tools requires a stronger tool binding
+- Upgrading your diamond tools via the smithing table works (WIP)
+- Easy to use commands to give the items outright: `/loot give @s loot umultitool:<material>_<tool>` (example:
+	`/loot give @s loot umultitool:netherite_paxeloe`)
 
 ## Useful Stuff
 
@@ -31,7 +33,7 @@ These links helped me create this pack
 
 ### Custom Model Calculation
 
-Base value: 1236864
+Base value: 1236864 (randomly chosen by smashing the keyboard and setting the last few bits to 0)
 
 | Flag | Meaning          |
 |------|------------------|
