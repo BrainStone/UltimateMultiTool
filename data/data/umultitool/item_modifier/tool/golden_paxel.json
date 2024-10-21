@@ -32,7 +32,7 @@
 			"minecraft:tool": {
 				"rules": [
 					{
-						"blocks": "#minecraft:incorrect_for_golden_tool",
+						"blocks": "#minecraft:incorrect_for_gold_tool",
 						"correct_for_drops": false
 					},
 					{
