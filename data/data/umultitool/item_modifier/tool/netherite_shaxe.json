@@ -9,7 +9,7 @@
 			"minecraft:item_name": "{translate:umultitool.netherite_shaxe,fallback:'Netherite Shaxe'}",
 			"minecraft:lore": [
 				"{translate:umultitool.lore.tier1,fallback:'Tier 1 Multi Tool:'}",
-				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Shovel}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_shovel,fallback:Shovel}]}",
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}"
 			],
 			"minecraft:rarity": "uncommon",

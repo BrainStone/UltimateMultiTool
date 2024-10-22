@@ -9,7 +9,7 @@
 			"minecraft:item_name": "{translate:umultitool.wooden_povel,fallback:'Wooden Povel'}",
 			"minecraft:lore": [
 				"{translate:umultitool.lore.tier1,fallback:'Tier 1 Multi Tool:'}",
-				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Shovel}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_shovel,fallback:Shovel}]}",
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_pickaxe,fallback:Pickaxe}]}"
 			],
 			"minecraft:rarity": "uncommon",

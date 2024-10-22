@@ -9,7 +9,7 @@
 			"minecraft:item_name": "{translate:umultitool.netherite_poveloe,fallback:'Netherite Poveloe'}",
 			"minecraft:lore": [
 				"{translate:umultitool.lore.tier2,fallback:'Tier 2 Multi Tool:'}",
-				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Shovel}]}",
+				"{text:'  ',extra:[{translate:umultitool.lore.contains_shovel,fallback:Shovel}]}",
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_pickaxe,fallback:Pickaxe}]}",
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_hoe,fallback:Hoe}]}"
 			],
