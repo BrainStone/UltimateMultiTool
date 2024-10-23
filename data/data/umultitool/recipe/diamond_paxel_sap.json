@@ -8,21 +8,11 @@
 		" R "
 	],
 	"key": {
-		"S": {
-			"item": "minecraft:diamond_shovel"
-		},
-		"P": {
-			"item": "minecraft:diamond_pickaxe"
-		},
-		"A": {
-			"item": "minecraft:diamond_axe"
-		},
-		"B": {
-			"item": "minecraft:slime_ball"
-		},
-		"R": {
-			"item": "minecraft:blaze_rod"
-		}
+		"S": "minecraft:diamond_shovel",
+		"P": "minecraft:diamond_pickaxe",
+		"A": "minecraft:diamond_axe",
+		"B": "minecraft:slime_ball",
+		"R": "minecraft:blaze_rod"
 	},
 	"result": {
 		"id": "minecraft:diamond_axe",
@@ -81,14 +71,14 @@
 						"id": "minecraft:base_attack_damage",
 						"operation": "add_value",
 						"slot": "mainhand",
-						"type": "minecraft:generic.attack_damage"
+						"type": "minecraft:attack_damage"
 					},
 					{
 						"amount": -2.9,
 						"id": "minecraft:base_attack_speed",
 						"operation": "add_value",
 						"slot": "mainhand",
-						"type": "minecraft:generic.attack_speed"
+						"type": "minecraft:attack_speed"
 					}
 				]
 			}

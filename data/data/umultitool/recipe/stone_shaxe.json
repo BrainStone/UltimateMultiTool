@@ -8,18 +8,10 @@
 		" R "
 	],
 	"key": {
-		"S": {
-			"item": "minecraft:stone_shovel"
-		},
-		"A": {
-			"item": "minecraft:stone_axe"
-		},
-		"B": {
-			"item": "minecraft:string"
-		},
-		"R": {
-			"item": "minecraft:stick"
-		}
+		"S": "minecraft:stone_shovel",
+		"A": "minecraft:stone_axe",
+		"B": "minecraft:string",
+		"R": "minecraft:stick"
 	},
 	"result": {
 		"id": "minecraft:stone_axe",
@@ -72,14 +64,14 @@
 						"id": "minecraft:base_attack_damage",
 						"operation": "add_value",
 						"slot": "mainhand",
-						"type": "minecraft:generic.attack_damage"
+						"type": "minecraft:attack_damage"
 					},
 					{
 						"amount": -3.1,
 						"id": "minecraft:base_attack_speed",
 						"operation": "add_value",
 						"slot": "mainhand",
-						"type": "minecraft:generic.attack_speed"
+						"type": "minecraft:attack_speed"
 					}
 				]
 			}

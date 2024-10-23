@@ -8,21 +8,11 @@
 		" R "
 	],
 	"key": {
-		"P": {
-			"item": "minecraft:stone_pickaxe"
-		},
-		"A": {
-			"item": "minecraft:stone_axe"
-		},
-		"H": {
-			"item": "minecraft:stone_hoe"
-		},
-		"B": {
-			"item": "minecraft:slime_ball"
-		},
-		"R": {
-			"item": "minecraft:blaze_rod"
-		}
+		"P": "minecraft:stone_pickaxe",
+		"A": "minecraft:stone_axe",
+		"H": "minecraft:stone_hoe",
+		"B": "minecraft:slime_ball",
+		"R": "minecraft:blaze_rod"
 	},
 	"result": {
 		"id": "minecraft:stone_axe",
@@ -81,14 +71,14 @@
 						"id": "minecraft:base_attack_damage",
 						"operation": "add_value",
 						"slot": "mainhand",
-						"type": "minecraft:generic.attack_damage"
+						"type": "minecraft:attack_damage"
 					},
 					{
 						"amount": -2.7,
 						"id": "minecraft:base_attack_speed",
 						"operation": "add_value",
 						"slot": "mainhand",
-						"type": "minecraft:generic.attack_speed"
+						"type": "minecraft:attack_speed"
 					}
 				]
 			}

@@ -8,18 +8,10 @@
 		" R "
 	],
 	"key": {
-		"S": {
-			"item": "minecraft:iron_shovel"
-		},
-		"H": {
-			"item": "minecraft:iron_hoe"
-		},
-		"B": {
-			"item": "minecraft:string"
-		},
-		"R": {
-			"item": "minecraft:stick"
-		}
+		"S": "minecraft:iron_shovel",
+		"H": "minecraft:iron_hoe",
+		"B": "minecraft:string",
+		"R": "minecraft:stick"
 	},
 	"result": {
 		"id": "minecraft:iron_shovel",
@@ -72,14 +64,14 @@
 						"id": "minecraft:base_attack_damage",
 						"operation": "add_value",
 						"slot": "mainhand",
-						"type": "minecraft:generic.attack_damage"
+						"type": "minecraft:attack_damage"
 					},
 					{
 						"amount": -2.0,
 						"id": "minecraft:base_attack_speed",
 						"operation": "add_value",
 						"slot": "mainhand",
-						"type": "minecraft:generic.attack_speed"
+						"type": "minecraft:attack_speed"
 					}
 				]
 			}

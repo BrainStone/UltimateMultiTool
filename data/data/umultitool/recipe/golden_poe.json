@@ -8,18 +8,10 @@
 		" R "
 	],
 	"key": {
-		"P": {
-			"item": "minecraft:golden_pickaxe"
-		},
-		"H": {
-			"item": "minecraft:golden_hoe"
-		},
-		"B": {
-			"item": "minecraft:string"
-		},
-		"R": {
-			"item": "minecraft:stick"
-		}
+		"P": "minecraft:golden_pickaxe",
+		"H": "minecraft:golden_hoe",
+		"B": "minecraft:string",
+		"R": "minecraft:stick"
 	},
 	"result": {
 		"id": "minecraft:golden_hoe",
@@ -72,14 +64,14 @@
 						"id": "minecraft:base_attack_damage",
 						"operation": "add_value",
 						"slot": "mainhand",
-						"type": "minecraft:generic.attack_damage"
+						"type": "minecraft:attack_damage"
 					},
 					{
 						"amount": -2.9,
 						"id": "minecraft:base_attack_speed",
 						"operation": "add_value",
 						"slot": "mainhand",
-						"type": "minecraft:generic.attack_speed"
+						"type": "minecraft:attack_speed"
 					}
 				]
 			}
