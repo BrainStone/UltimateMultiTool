@@ -1,3 +1,10 @@
+# v0.9
+
+- Added translation files (en_us and de_de for now)
+- Upgraded pack to 1.21.2+
+- No longer overriding the vanilla tool models, which means more compatibility
+- Added tags for rods and bindings in recipes, which allows customizing them
+
 # v0.8
 
 - Implemented Netherite upgrade logic
