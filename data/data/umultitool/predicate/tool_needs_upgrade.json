@@ -1,19 +1,19 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "equipment": {
-      "mainhand": {
-        "items": "#umultitool:netherite_tools",
-        "predicates": {
-          "minecraft:custom_data": {
-            "umultitool": {
-              "is_multitool": true,
-              "material": "diamond"
-            }
-          }
-        }
-      }
-    }
-  }
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": "#umultitool:netherite_tools",
+				"predicates": {
+					"minecraft:custom_data": {
+						"umultitool": {
+							"is_multitool": true,
+							"material": "diamond"
+						}
+					}
+				}
+			}
+		}
+	}
 }

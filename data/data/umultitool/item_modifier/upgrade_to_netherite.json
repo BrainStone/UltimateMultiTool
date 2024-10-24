@@ -1,57 +1,57 @@
 [
-  {
-    "function": "minecraft:reference",
-    "name": "umultitool:tool/netherite_povel",
-    "predicate": "umultitool:tool/is_povel"
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "umultitool:tool/netherite_shaxe",
-    "predicate": "umultitool:tool/is_shaxe"
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "umultitool:tool/netherite_paxe",
-    "predicate": "umultitool:tool/is_paxe"
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "umultitool:tool/netherite_paxel",
-    "predicate": "umultitool:tool/is_paxel"
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "umultitool:tool/netherite_hovel",
-    "predicate": "umultitool:tool/is_hovel"
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "umultitool:tool/netherite_poe",
-    "predicate": "umultitool:tool/is_poe"
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "umultitool:tool/netherite_poveloe",
-    "predicate": "umultitool:tool/is_poveloe"
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "umultitool:tool/netherite_haxe",
-    "predicate": "umultitool:tool/is_haxe"
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "umultitool:tool/netherite_shaxoe",
-    "predicate": "umultitool:tool/is_shaxoe"
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "umultitool:tool/netherite_paxoe",
-    "predicate": "umultitool:tool/is_paxoe"
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "umultitool:tool/netherite_paxeloe",
-    "predicate": "umultitool:tool/is_paxeloe"
-  }
+	{
+		"function": "minecraft:reference",
+		"name": "umultitool:tool/netherite_povel",
+		"predicate": "umultitool:tool/is_povel"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "umultitool:tool/netherite_shaxe",
+		"predicate": "umultitool:tool/is_shaxe"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "umultitool:tool/netherite_paxe",
+		"predicate": "umultitool:tool/is_paxe"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "umultitool:tool/netherite_paxel",
+		"predicate": "umultitool:tool/is_paxel"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "umultitool:tool/netherite_hovel",
+		"predicate": "umultitool:tool/is_hovel"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "umultitool:tool/netherite_poe",
+		"predicate": "umultitool:tool/is_poe"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "umultitool:tool/netherite_poveloe",
+		"predicate": "umultitool:tool/is_poveloe"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "umultitool:tool/netherite_haxe",
+		"predicate": "umultitool:tool/is_haxe"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "umultitool:tool/netherite_shaxoe",
+		"predicate": "umultitool:tool/is_shaxoe"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "umultitool:tool/netherite_paxoe",
+		"predicate": "umultitool:tool/is_paxoe"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "umultitool:tool/netherite_paxeloe",
+		"predicate": "umultitool:tool/is_paxeloe"
+	}
 ]
