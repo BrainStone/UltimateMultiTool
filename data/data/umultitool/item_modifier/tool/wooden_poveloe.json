@@ -14,7 +14,7 @@
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_hoe,fallback:Hoe}]}"
 			],
 			"minecraft:rarity": "rare",
-			"minecraft:custom_model_data": 1236875,
+			"minecraft:item_model": "umultitool:wooden_poveloe",
 			"minecraft:custom_data": {
 				"umultitool": {
 					"is_multitool": true,

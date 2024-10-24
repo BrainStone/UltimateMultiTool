@@ -14,7 +14,7 @@
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_axe,fallback:Axe}]}"
 			],
 			"minecraft:rarity": "rare",
-			"minecraft:custom_model_data": 1236871,
+			"minecraft:item_model": "umultitool:golden_paxel",
 			"minecraft:custom_data": {
 				"umultitool": {
 					"is_multitool": true,

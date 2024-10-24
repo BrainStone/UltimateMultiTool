@@ -13,7 +13,7 @@
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_hoe,fallback:Hoe}]}"
 			],
 			"minecraft:rarity": "uncommon",
-			"minecraft:custom_model_data": 1236874,
+			"minecraft:item_model": "umultitool:netherite_poe",
 			"minecraft:custom_data": {
 				"umultitool": {
 					"is_multitool": true,

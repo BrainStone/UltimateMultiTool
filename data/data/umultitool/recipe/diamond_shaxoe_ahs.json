@@ -25,7 +25,7 @@
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_hoe,fallback:Hoe}]}"
 			],
 			"minecraft:rarity": "rare",
-			"minecraft:custom_model_data": 1236877,
+			"minecraft:item_model": "umultitool:diamond_shaxoe",
 			"minecraft:custom_data": {
 				"umultitool": {
 					"is_multitool": true,

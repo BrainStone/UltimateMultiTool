@@ -15,7 +15,7 @@
 				"{text:'  ',extra:[{translate:umultitool.lore.contains_hoe,fallback:Hoe}]}"
 			],
 			"minecraft:rarity": "epic",
-			"minecraft:custom_model_data": 1236879,
+			"minecraft:item_model": "umultitool:iron_paxeloe",
 			"minecraft:custom_data": {
 				"umultitool": {
 					"is_multitool": true,
