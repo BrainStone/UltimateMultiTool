@@ -12,8 +12,8 @@
 		"P": "minecraft:golden_pickaxe",
 		"A": "minecraft:golden_axe",
 		"H": "minecraft:golden_hoe",
-		"B": "minecraft:lead",
-		"R": "minecraft:breeze_rod"
+		"B": "#umultitool:resource/binding_tier3",
+		"R": "#umultitool:resource/rod_tier3"
 	},
 	"result": {
 		"id": "minecraft:golden_axe",

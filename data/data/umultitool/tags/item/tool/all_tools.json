@@ -1,0 +1,10 @@
+{
+	"values": [
+		"#umultitool:tool/wooden_tools",
+		"#umultitool:tool/stone_tools",
+		"#umultitool:tool/iron_tools",
+		"#umultitool:tool/golden_tools",
+		"#umultitool:tool/diamond_tools",
+		"#umultitool:tool/netherite_tools"
+	]
+}

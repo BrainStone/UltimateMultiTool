@@ -11,8 +11,8 @@
 		"S": "minecraft:wooden_shovel",
 		"P": "minecraft:wooden_pickaxe",
 		"A": "minecraft:wooden_axe",
-		"B": "minecraft:slime_ball",
-		"R": "minecraft:blaze_rod"
+		"B": "#umultitool:resource/binding_tier2",
+		"R": "#umultitool:resource/rod_tier2"
 	},
 	"result": {
 		"id": "minecraft:wooden_axe",

@@ -12,8 +12,8 @@
 		"P": "minecraft:diamond_pickaxe",
 		"A": "minecraft:diamond_axe",
 		"H": "minecraft:diamond_hoe",
-		"B": "minecraft:lead",
-		"R": "minecraft:breeze_rod"
+		"B": "#umultitool:resource/binding_tier3",
+		"R": "#umultitool:resource/rod_tier3"
 	},
 	"result": {
 		"id": "minecraft:diamond_axe",

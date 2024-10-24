@@ -10,8 +10,8 @@
 	"key": {
 		"S": "minecraft:netherite_shovel",
 		"A": "minecraft:netherite_axe",
-		"B": "minecraft:string",
-		"R": "minecraft:stick"
+		"B": "#umultitool:resource/binding_tier1",
+		"R": "#umultitool:resource/rod_tier1"
 	},
 	"result": {
 		"id": "minecraft:netherite_axe",

@@ -11,8 +11,8 @@
 		"P": "minecraft:stone_pickaxe",
 		"A": "minecraft:stone_axe",
 		"H": "minecraft:stone_hoe",
-		"B": "minecraft:slime_ball",
-		"R": "minecraft:blaze_rod"
+		"B": "#umultitool:resource/binding_tier2",
+		"R": "#umultitool:resource/rod_tier2"
 	},
 	"result": {
 		"id": "minecraft:stone_axe",

@@ -12,8 +12,8 @@
 		"P": "minecraft:netherite_pickaxe",
 		"A": "minecraft:netherite_axe",
 		"H": "minecraft:netherite_hoe",
-		"B": "minecraft:lead",
-		"R": "minecraft:breeze_rod"
+		"B": "#umultitool:resource/binding_tier3",
+		"R": "#umultitool:resource/rod_tier3"
 	},
 	"result": {
 		"id": "minecraft:netherite_axe",

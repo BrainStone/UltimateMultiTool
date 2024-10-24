@@ -11,8 +11,8 @@
 		"S": "minecraft:diamond_shovel",
 		"A": "minecraft:diamond_axe",
 		"H": "minecraft:diamond_hoe",
-		"B": "minecraft:slime_ball",
-		"R": "minecraft:blaze_rod"
+		"B": "#umultitool:resource/binding_tier2",
+		"R": "#umultitool:resource/rod_tier2"
 	},
 	"result": {
 		"id": "minecraft:diamond_axe",

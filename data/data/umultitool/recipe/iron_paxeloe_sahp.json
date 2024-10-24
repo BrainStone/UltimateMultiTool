@@ -12,8 +12,8 @@
 		"P": "minecraft:iron_pickaxe",
 		"A": "minecraft:iron_axe",
 		"H": "minecraft:iron_hoe",
-		"B": "minecraft:lead",
-		"R": "minecraft:breeze_rod"
+		"B": "#umultitool:resource/binding_tier3",
+		"R": "#umultitool:resource/rod_tier3"
 	},
 	"result": {
 		"id": "minecraft:iron_axe",

@@ -10,8 +10,8 @@
 	"key": {
 		"A": "minecraft:wooden_axe",
 		"H": "minecraft:wooden_hoe",
-		"B": "minecraft:string",
-		"R": "minecraft:stick"
+		"B": "#umultitool:resource/binding_tier1",
+		"R": "#umultitool:resource/rod_tier1"
 	},
 	"result": {
 		"id": "minecraft:wooden_axe",

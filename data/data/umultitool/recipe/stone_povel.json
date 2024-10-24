@@ -10,8 +10,8 @@
 	"key": {
 		"S": "minecraft:stone_shovel",
 		"P": "minecraft:stone_pickaxe",
-		"B": "minecraft:string",
-		"R": "minecraft:stick"
+		"B": "#umultitool:resource/binding_tier1",
+		"R": "#umultitool:resource/rod_tier1"
 	},
 	"result": {
 		"id": "minecraft:stone_shovel",

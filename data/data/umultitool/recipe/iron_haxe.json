@@ -10,8 +10,8 @@
 	"key": {
 		"A": "minecraft:iron_axe",
 		"H": "minecraft:iron_hoe",
-		"B": "minecraft:string",
-		"R": "minecraft:stick"
+		"B": "#umultitool:resource/binding_tier1",
+		"R": "#umultitool:resource/rod_tier1"
 	},
 	"result": {
 		"id": "minecraft:iron_axe",

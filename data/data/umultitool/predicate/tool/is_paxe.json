@@ -4,7 +4,7 @@
 	"predicates": {
 		"equipment": {
 			"mainhand": {
-				"items": "#umultitool:all_tools",
+				"items": "#umultitool:tool/all_tools",
 				"predicates": {
 					"minecraft:custom_data": {
 						"umultitool": {

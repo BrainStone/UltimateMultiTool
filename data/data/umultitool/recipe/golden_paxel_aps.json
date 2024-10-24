@@ -11,8 +11,8 @@
 		"S": "minecraft:golden_shovel",
 		"P": "minecraft:golden_pickaxe",
 		"A": "minecraft:golden_axe",
-		"B": "minecraft:slime_ball",
-		"R": "minecraft:blaze_rod"
+		"B": "#umultitool:resource/binding_tier2",
+		"R": "#umultitool:resource/rod_tier2"
 	},
 	"result": {
 		"id": "minecraft:golden_axe",
