@@ -15,9 +15,27 @@ The ultimate Minecraft MultiTool datapack (and resourcepack)
 - Only one continuously running command with a predicate in place to further reduce the impact (required for the
 	netherite upgrading logic)
 
-# Screenshots
+## Screenshots
 
 ![Showing off all tools available in this datapack.](pictures/all_tools.png "All Tools")
+
+### Recipes
+
+These recipes work with all materials and the tools are interchangeable.
+
+| Tool    | Recipe                                                    |
+|---------|-----------------------------------------------------------|
+| Povel   | ![Povel recipe](pictures/recipes/povel.png "Povel")       |
+| Shaxe   | ![Shaxe recipe](pictures/recipes/shaxe.png "Shaxe")       |
+| Paxe    | ![Paxe recipe](pictures/recipes/paxe.png "Paxe")          |
+| Hovel   | ![Hovel recipe](pictures/recipes/hovel.png "Hovel")       |
+| Poe     | ![Poe recipe](pictures/recipes/poe.png "Poe")             |
+| Haxe    | ![Haxe recipe](pictures/recipes/haxe.png "Haxe")          |
+| Paxel   | ![Paxel recipe](pictures/recipes/paxel.png "Paxel")       |
+| Poveloe | ![Poveloe recipe](pictures/recipes/poveloe.png "Poveloe") |
+| Shaxoe  | ![Shaxoe recipe](pictures/recipes/shaxoe.png "Shaxoe")    |
+| Paxoe   | ![Paxoe recipe](pictures/recipes/paxoe.png "Paxoe")       |
+| Paxeloe | ![Paxeloe recipe](pictures/recipes/paxeloe.png "Paxeloe") |
 
 ## Useful Stuff
 
