@@ -1,3 +1,9 @@
+# v1.0
+
+- Added logo images
+- Fixed netherite textures
+- Documented recipes
+
 # v0.9
 
 - Added translation files (en_us and de_de for now)
